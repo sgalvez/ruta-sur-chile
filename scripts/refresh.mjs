@@ -1,12 +1,13 @@
 import { readFile, writeFile, rename } from 'node:fs/promises';
 import { extractSource, observe, failedObservation } from './sources.mjs';
-const root=new URL('../public/data/',import.meta.url);
+import {fetchRoads, ROAD_URL} from './roads.mjs';
+const root=new URL('../public/data/v2/',import.meta.url);
 const catalog=JSON.parse(await readFile(new URL('catalog.json',root),'utf8'));
 let previous;
-try{previous=JSON.parse(await readFile(new URL('state.json',root),'utf8'));}catch{previous={schemaVersion:1,lastSuccessfulAt:null,observations:{}};}
+try{previous=JSON.parse(await readFile(new URL('state.json',root),'utf8'));}catch{previous={schemaVersion:2,lastSuccessfulAt:null,observations:{}};}
 const at=new Date().toISOString();
-const next={schemaVersion:1,attemptedAt:at,lastSuccessfulAt:previous.lastSuccessfulAt,observations:{...previous.observations}};
-const sources=[...new Map(catalog.places.flatMap(p=>p.sources).filter(s=>s.adapter!=='reference').map(s=>[s.id,s])).values()];
+const next={schemaVersion:2,attemptedAt:at,lastSuccessfulAt:previous.lastSuccessfulAt,observations:{...previous.observations}};
+const sources=[...new Map([...catalog.places,...catalog.ferries].flatMap(p=>p.sources).filter(s=>s.adapter!=='reference').map(s=>[s.id,s])).values()];
 let success=0;
 for(const source of sources){
   try{
@@ -29,3 +30,8 @@ if(success===sources.length && success>0)next.lastSuccessfulAt=at;
 const tmp=new URL('state.json.tmp',root);await writeFile(tmp,JSON.stringify(next,null,2)+'\n');await rename(tmp,new URL('state.json',root));
 console.log(`${success}/${sources.length} fuentes consultadas; ${at}`);
 if(success===0)console.error('Ninguna fuente respondió correctamente. Se conservó la evidencia anterior.');
+let roads;
+try{roads=JSON.parse(await readFile(new URL('mobility.json',root),'utf8'));}catch{roads={schemaVersion:2,checkedAt:null,notices:[]};}
+try{roads={schemaVersion:2,attemptedAt:at,checkedAt:at,ok:true,sourceUrl:ROAD_URL,notices:await fetchRoads()};console.log(`MOP: ${roads.notices.length} avisos en ocho regiones`);}
+catch(error){roads={...roads,attemptedAt:at,ok:false,sourceUrl:ROAD_URL,error:String(error.message).slice(0,180)};console.warn('MOP: '+roads.error);}
+const roadsTmp=new URL('mobility.json.tmp',root);await writeFile(roadsTmp,JSON.stringify(roads,null,2)+'\n');await rename(roadsTmp,new URL('mobility.json',root));

@@ -1,0 +1,3646 @@
+{
+  "schemaVersion": 2,
+  "researchedAt": "2026-09-12T20:14:42.573450Z",
+  "places": [
+    {
+      "id": "reserva-nacional-rio-de-los-cipreses",
+      "name": "Reserva Nacional Río de Los Cipreses",
+      "kind": "reserve",
+      "region": "O’Higgins",
+      "locality": "Machalí",
+      "coordinates": [
+        -34.4646926,
+        -70.4550726
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.pasesparques.cl/es/undefined-undefined/reserva-nacional-rio-de-los-cipreses-3685",
+      "description": "Un valle cordillerano para recorrer senderos y conocer el entorno del río Cipreses.",
+      "highlights": [
+        "Valle cordillerano",
+        "Campismo cerrado según CONAF"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": false,
+        "parking": null
+      },
+      "serviceSource": "conaf-reserva-nacional-rio-de-los-cipreses",
+      "access": "CONAF informa zonas de campismo cerradas. Para una visita diurna, consulta sectores y horarios. Acceso por Coya y puente Chacayes.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "conaf-reserva-nacional-rio-de-los-cipreses",
+          "url": "https://www.conaf.cl/parque_nacionales/reserva-nacional-rio-de-los-cipreses/",
+          "label": "CONAF · Reserva Nacional Río de Los Cipreses",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:00.890Z",
+          "expectedTitle": "Reserva Nacional Río de Los Cipreses",
+          "reviewedHash": "470041408becfcdf9d9d432a22d2e6fa8ce8cb6fe45d9b7950aeac5fda63917d"
+        },
+        {
+          "id": "geo-reserva-nacional-rio-de-los-cipreses",
+          "url": "https://www.pasesparques.cl/es/undefined-undefined/reserva-nacional-rio-de-los-cipreses-3685",
+          "label": "Ubicación referencial · Pases Parques",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-reserva-nacional-rio-de-los-cipreses"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/reserva-nacional-rio-de-los-cipreses/",
+      "booking": "https://www.pasesparques.cl/es",
+      "phone": "+56940299687",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-3",
+      "name": "Camping El Álamo",
+      "kind": "camping",
+      "region": "O’Higgins",
+      "locality": "Las Cabras",
+      "coordinates": [
+        -34.1507114,
+        -71.435697
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/4108718277",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Camping en el sector El Estero del lago Rapel, con áreas para picnic y piscina publicadas en el directorio.",
+      "highlights": [
+        "Lago Rapel",
+        "Piscina publicada"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4644",
+      "sources": [
+        {
+          "id": "camping-directorio-4644",
+          "url": "https://campingenchile.cl/camping/camping-el-alamo-4644",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:50:49.906Z",
+          "expectedTitle": "Camping El Alamo",
+          "reviewedHash": "6ee91e3a96c74c4788e7cab21e114ae4723ed85a4668a0e249f7cde34abdc3de"
+        },
+        {
+          "id": "osm-camping-3",
+          "url": "https://www.openstreetmap.org/node/4108718277",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4644"
+      ],
+      "access": "El directorio describe un tramo final de tierra desde la circunvalación de Rapel. Confirma la entrada y los servicios básicos antes de viajar.",
+      "carAccess": "unknown",
+      "phone": "+56992199996",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-1",
+      "name": "Camping Laguna del Perro",
+      "kind": "camping",
+      "region": "O’Higgins",
+      "locality": "Pichilemu",
+      "coordinates": [
+        -34.4529437,
+        -72.0274094
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2645051614",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Una parada junto a la laguna del Perro, en el camino entre Punta de Lobos y Cáhuil.",
+      "highlights": [
+        "Laguna",
+        "Costa de O’Higgins"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": true,
+        "parking": true
+      },
+      "serviceSource": "camping-directorio-4710",
+      "sources": [
+        {
+          "id": "camping-directorio-4710",
+          "url": "https://campingenchile.cl/camping/camping-laguna-del-perro-camino-a-c-huil-4710",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:50:48.714Z",
+          "expectedTitle": "Camping Laguna Del Perro - Camino a Cáhuil",
+          "reviewedHash": "5292d97213590798a9c446399da1932c8e41ebafd1817627bca052105fec1622"
+        },
+        {
+          "id": "osm-camping-1",
+          "url": "https://www.openstreetmap.org/node/2645051614",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4710"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "yes",
+      "phone": "+56974158613",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-nautico-rapel",
+      "name": "Camping Náutico Rapel",
+      "kind": "camping",
+      "region": "O’Higgins",
+      "locality": "Las Cabras",
+      "coordinates": [
+        -34.1661175268,
+        -71.3962325377
+      ],
+      "coordinateSource": "https://campingnauticorapel.cl/",
+      "coordinateNote": "Coordenada de destino publicada en el mapa del establecimiento.",
+      "description": "Sitios junto al lago Rapel con quinchos, baños, duchas calientes, agua potable y electricidad publicados por el camping.",
+      "highlights": [
+        "Lago Rapel",
+        "Sitios equipados"
+      ],
+      "services": {
+        "toilets": true,
+        "water": true,
+        "showers": true,
+        "electricity": true,
+        "parking": null
+      },
+      "serviceSource": "nautico-operador",
+      "sources": [
+        {
+          "id": "nautico-operador",
+          "url": "https://campingnauticorapel.cl/",
+          "label": "Camping Náutico Rapel · sitio oficial",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T19:12:35.354Z",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "expectedTitle": "Camping Náutico Rapel",
+          "reviewedHash": "50178bcc644e91590e64c724c225fa2fcc9ac3cee5c823dfa1a1785ea75c2c8b"
+        }
+      ],
+      "statusSourceIds": [
+        "nautico-operador"
+      ],
+      "access": "Consultar disponibilidad y el cobro por día: el operador advierte que salir a la mañana siguiente cuenta como otro día.",
+      "carAccess": "unknown",
+      "phone": "+56992431058",
+      "website": "https://campingnauticorapel.cl/",
+      "price": {
+        "amount": 45000,
+        "unit": "por sitio y día, hasta 5 personas; marzo a noviembre de 2026",
+        "source": "nautico-operador",
+        "observedAt": "2026-09-12T19:16:08.380033Z"
+      },
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-radal-siete-tazas",
+      "name": "Parque Nacional Radal Siete Tazas",
+      "kind": "park",
+      "region": "Maule",
+      "locality": "Molina",
+      "coordinates": [
+        -35.4772851,
+        -70.9383239
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/10597152",
+      "description": "Senderos y miradores en torno al río Claro, con alternativas de camping concesionado en la zona.",
+      "highlights": [
+        "Río Claro",
+        "Miradores"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-radal-siete-tazas",
+      "access": "El sendero El Bolsón está cerrado según el aviso del 28 de mayo de 2026. El camino final es de ripio; confirmar nieve y condiciones antes de desviarse.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-radal-siete-tazas",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+          "label": "CONAF · Parque Nacional Radal Siete Tazas",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:00.890Z",
+          "expectedTitle": "Parque Nacional Radal Siete Tazas",
+          "reviewedHash": "49ff9619914ab26aabfb41428a5cfac0a3fb269d42f0668b8f000a7d64c53b08"
+        },
+        {
+          "id": "geo-parque-nacional-radal-siete-tazas",
+          "url": "https://www.openstreetmap.org/relation/10597152",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-radal-siete-tazas"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "reserva-nacional-altos-de-lircay",
+      "name": "Reserva Nacional Altos de Lircay",
+      "kind": "reserve",
+      "region": "Maule",
+      "locality": "San Clemente",
+      "coordinates": [
+        -35.6015313,
+        -70.9618328
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/5463636",
+      "description": "Un desvío cordillerano desde San Clemente para caminar entre bosques y miradores.",
+      "highlights": [
+        "Senderos cortos",
+        "Camping Antahuara"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-reserva-nacional-altos-de-lircay",
+      "access": "La fuente informa acceso a senderos cortos desde el 1 de septiembre de 2026; los largos siguen cerrados hasta nuevo aviso. Antahuara está a 800 m de la administración.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-reserva-nacional-altos-de-lircay",
+          "url": "https://www.conaf.cl/parque_nacionales/reserva-nacional-altos-de-lircay/",
+          "label": "CONAF · Reserva Nacional Altos de Lircay",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:01.654Z",
+          "expectedTitle": "Reserva Nacional Altos de Lircay",
+          "reviewedHash": "839f25a202af59576bbab60892ee36535204c4e058c2460b753b3c0ca75cdd21"
+        },
+        {
+          "id": "geo-reserva-nacional-altos-de-lircay",
+          "url": "https://www.openstreetmap.org/relation/5463636",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-reserva-nacional-altos-de-lircay"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/reserva-nacional-altos-de-lircay/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-10",
+      "name": "Cabañas y Camping Santa Camila",
+      "kind": "camping",
+      "region": "Maule",
+      "locality": "Río Claro",
+      "coordinates": [
+        -35.415016,
+        -71.0540206
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/4806752021",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Alternativa de carpa y cabañas en el sector de Radal, para explorar la zona del río Claro.",
+      "highlights": [
+        "Radal",
+        "Carpa y cabañas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4778",
+      "sources": [
+        {
+          "id": "camping-directorio-4778",
+          "url": "https://campingenchile.cl/camping/caba-as-y-camping-santa-camila-4778",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:50:54.422Z",
+          "expectedTitle": "Cabañas Y Camping Santa Camila",
+          "reviewedHash": "b95b9689c4852c025a213fb2bae86a744d6c2ea8982703cb36857f9f56aa02e3"
+        },
+        {
+          "id": "osm-camping-10",
+          "url": "https://www.openstreetmap.org/node/4806752021",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4778"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-extra25",
+      "name": "Camping Antahuara",
+      "kind": "camping",
+      "region": "Maule",
+      "locality": "San Clemente",
+      "coordinates": [
+        -35.5992949,
+        -71.0441304
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1946220788",
+      "coordinateNote": "Ubicación del camping en OpenStreetMap; verifica el acceso y estacionamiento.",
+      "description": "Área de campismo de Altos de Lircay, a 800 metros de la administración.",
+      "highlights": [
+        "Altos de Lircay"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-reserva-nacional-altos-de-lircay",
+      "sources": [
+        {
+          "id": "conaf-reserva-nacional-altos-de-lircay",
+          "url": "https://www.conaf.cl/parque_nacionales/reserva-nacional-altos-de-lircay/",
+          "label": "CONAF · Reserva Nacional Altos de Lircay",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:01.654Z",
+          "expectedTitle": "Reserva Nacional Altos de Lircay",
+          "reviewedHash": "839f25a202af59576bbab60892ee36535204c4e058c2460b753b3c0ca75cdd21"
+        },
+        {
+          "id": "osm-extra25",
+          "url": "https://www.openstreetmap.org/node/1946220788",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "Confirma si debes trasladar a pie el equipo desde la administración y si el camping está habilitado. No asumir acceso vehicular al sitio.",
+      "carAccess": "restricted",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-extra26",
+      "name": "Camping Parque Inglés",
+      "kind": "camping",
+      "region": "Maule",
+      "locality": "Molina",
+      "coordinates": [
+        -35.4746756,
+        -70.9943428
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5298086224",
+      "coordinateNote": "Ubicación del camping en OpenStreetMap; verifica el acceso y estacionamiento.",
+      "description": "Camping concesionado del sector Parque Inglés, en el entorno de Radal Siete Tazas.",
+      "highlights": [
+        "Radal Siete Tazas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-radal-siete-tazas",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-radal-siete-tazas",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+          "label": "CONAF · Parque Nacional Radal Siete Tazas",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:00.890Z",
+          "expectedTitle": "Parque Nacional Radal Siete Tazas",
+          "reviewedHash": "49ff9619914ab26aabfb41428a5cfac0a3fb269d42f0668b8f000a7d64c53b08"
+        },
+        {
+          "id": "osm-extra26",
+          "url": "https://www.openstreetmap.org/node/5298086224",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "sernatur-parque-ingles",
+          "url": "https://serviciosturisticos.sernatur.cl/nueva_busqueda.php?nombre=CAMPING+PARQUE+INGLES",
+          "label": "Sernatur · búsqueda del establecimiento",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "Confirmar servicios con la concesión. El cierre del sendero El Bolsón no determina por sí solo la apertura del camping.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-extra27",
+      "name": "Camping Valle de las Catas",
+      "kind": "camping",
+      "region": "Maule",
+      "locality": "Molina",
+      "coordinates": [
+        -35.4674946,
+        -71.0124085
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5938937306",
+      "coordinateNote": "Ubicación del camping en OpenStreetMap; verifica el acceso y estacionamiento.",
+      "description": "Sitios para carpa cerca del entorno de Siete Tazas, con baños y duchas publicados por su operador.",
+      "highlights": [
+        "Radal Siete Tazas"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": false,
+        "parking": null
+      },
+      "serviceSource": "valle-catas-operador",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-radal-siete-tazas",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+          "label": "CONAF · Parque Nacional Radal Siete Tazas",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:00.890Z",
+          "expectedTitle": "Parque Nacional Radal Siete Tazas",
+          "reviewedHash": "49ff9619914ab26aabfb41428a5cfac0a3fb269d42f0668b8f000a7d64c53b08"
+        },
+        {
+          "id": "osm-extra27",
+          "url": "https://www.openstreetmap.org/node/5938937306",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "valle-catas-operador",
+          "url": "https://www.sietetazas.cl/preguntas-frecuentes/",
+          "label": "Siete Tazas · preguntas frecuentes del operador",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "El operador informa iluminación limitada en baños y ausencia de enchufes. Consulta apertura y disponibilidad antes de ingresar a la zona.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "reserva-nacional-nuble",
+      "name": "Reserva Nacional Ñuble",
+      "kind": "reserve",
+      "region": "Ñuble",
+      "locality": "Pinto",
+      "coordinates": [
+        -37.0763635,
+        -71.3161597
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/4741429",
+      "description": "Reserva de montaña al este de Chillán, con senderos, miradores y sectores de campismo.",
+      "highlights": [
+        "Cordillera de Ñuble",
+        "Acceso con doble tracción"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-reserva-nacional-nuble",
+      "access": "CONAF mantiene publicado un cierre invernal desde el 1 de junio de 2026. No asumir reapertura por cambio de estación. Los últimos 8 km requieren doble tracción.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-reserva-nacional-nuble",
+          "url": "https://www.conaf.cl/parque_nacionales/reserva-nacional-nuble/",
+          "label": "CONAF · Reserva Nacional Ñuble",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:01.646Z",
+          "expectedTitle": "Reserva Nacional Ñuble",
+          "reviewedHash": "7af2ba1c0ef3d1bf1ed1299ff9d30dfc892359b459e3d0d988c145cd8a882197"
+        },
+        {
+          "id": "geo-reserva-nacional-nuble",
+          "url": "https://www.openstreetmap.org/relation/4741429",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-reserva-nacional-nuble"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/reserva-nacional-nuble/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-los-yugos",
+      "name": "Camping Los Yugos",
+      "kind": "camping",
+      "region": "Ñuble",
+      "locality": "San Fabián",
+      "coordinates": [
+        -36.580572,
+        -71.5309668
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1203850622",
+      "coordinateNote": "Ubicación del establecimiento en OpenStreetMap; el operador también publica indicaciones para llegar.",
+      "description": "Camping familiar junto al río Ñuble, en Las Guardias, con baños y duchas publicados por el establecimiento.",
+      "highlights": [
+        "Río Ñuble",
+        "San Fabián"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "yugos-operador",
+      "sources": [
+        {
+          "id": "yugos-operador",
+          "url": "https://www.campinglosyugossanfa.cl/",
+          "label": "Camping Los Yugos · sitio oficial",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T19:09:59.234Z",
+          "titleSelector": "title",
+          "contentSelector": "article",
+          "expectedTitle": "Camping Los Yugos",
+          "reviewedHash": "4cd10e945f6fa6c746e30e4bcde6d3e41d534bbd9ba11a27aef4501b6fd1a93d"
+        },
+        {
+          "id": "osm-yugos",
+          "url": "https://www.openstreetmap.org/node/1203850622",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "yugos-acceso",
+          "url": "https://www.campinglosyugossanfa.cl/como-llegar/",
+          "label": "Camping Los Yugos · cómo llegar",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "yugos-operador"
+      ],
+      "access": "El sitio publica temporada de septiembre a abril, sin confirmar cupos para una fecha específica. Acceso por la ruta desde San Fabián hacia Las Guardias.",
+      "carAccess": "yes",
+      "phone": "+56934342039",
+      "whatsapp": "+56952165645",
+      "website": "https://www.campinglosyugossanfa.cl/",
+      "booking": "https://www.campinglosyugossanfa.cl/contacto/",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-laguna-del-laja",
+      "name": "Parque Nacional Laguna del Laja",
+      "kind": "park",
+      "region": "Biobío",
+      "locality": "Antuco",
+      "coordinates": [
+        -37.4140414,
+        -71.3715641
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/4767487",
+      "description": "Miradores y senderos de montaña para una parada en el entorno del volcán Antuco.",
+      "highlights": [
+        "Antuco",
+        "Miradores"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-laguna-del-laja",
+      "access": "Acceso desde Los Ángeles por Antuco y Abanico. La fuente publica horarios de junio a septiembre de 2026; confirmar condiciones del camino y exigencia de cadenas.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-laguna-del-laja",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-del-laja/",
+          "label": "CONAF · Parque Nacional Laguna del Laja",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:02.390Z",
+          "expectedTitle": "Parque Nacional Laguna del Laja",
+          "reviewedHash": "28302aa4c6c541d62c4541d8c7a8aa203affa607df6b3d5240970c4a89e7d46f"
+        },
+        {
+          "id": "geo-parque-nacional-laguna-del-laja",
+          "url": "https://www.openstreetmap.org/relation/4767487",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-laguna-del-laja"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-del-laja/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-nonguen",
+      "name": "Parque Nacional Nonguén",
+      "kind": "park",
+      "region": "Biobío",
+      "locality": "Concepción",
+      "coordinates": [
+        -36.8946547,
+        -72.9809754
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/4770312",
+      "description": "Senderos y espacios de merienda en el valle Nonguén, cerca de Concepción.",
+      "highlights": [
+        "Bosque",
+        "Visita por el día"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": false,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-nonguen",
+      "access": "El acceso final es de ripio y requiere circular despacio. La fuente informa ausencia de señal celular y electricidad; dispone de baños junto a los estacionamientos.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-nonguen",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-nonguen/",
+          "label": "CONAF · Parque Nacional Nonguén",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:02.386Z",
+          "expectedTitle": "Parque Nacional Nonguén",
+          "reviewedHash": "bdb56fe729822a10ecda8d03375ba6da4ef33468dcd9431aaef0e0b99dd9e645"
+        },
+        {
+          "id": "geo-parque-nacional-nonguen",
+          "url": "https://www.openstreetmap.org/relation/4770312",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-nonguen"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-nonguen/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-29",
+      "name": "Camping Ayelén · Lago Lleu Lleu",
+      "kind": "camping",
+      "region": "Biobío",
+      "locality": "Tirúa",
+      "coordinates": [
+        -38.1833254,
+        -73.3490333
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5355720356",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Una opción junto al lago Lleu Lleu, con gastronomía mapuche publicada por el directorio.",
+      "highlights": [
+        "Lago Lleu Lleu",
+        "Gastronomía local"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4718",
+      "sources": [
+        {
+          "id": "camping-directorio-4718",
+          "url": "https://campingenchile.cl/camping/camping-ayelen-4718",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:04.894Z",
+          "expectedTitle": "Camping Ayelen",
+          "reviewedHash": "a1f001512981b37a0dc287b28d641536cf913c262bf7d17cba7a4fa1532edd0c"
+        },
+        {
+          "id": "osm-camping-29",
+          "url": "https://www.openstreetmap.org/node/5355720356",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4718"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-18",
+      "name": "Camping Los Manantiales · Salto del Laja",
+      "kind": "camping",
+      "region": "Biobío",
+      "locality": "Los Ángeles",
+      "coordinates": [
+        -37.2215385,
+        -72.385127
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1043962487",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Complejo junto al Salto del Laja con camping, piscina y restaurante publicados.",
+      "highlights": [
+        "Salto del Laja",
+        "Parada junto a la ruta"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4779",
+      "sources": [
+        {
+          "id": "camping-directorio-4779",
+          "url": "https://campingenchile.cl/camping/camping-los-manantiales-salto-del-laja-4779",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:50:59.002Z",
+          "expectedTitle": "Camping Los Manantiales Salto Del Laja",
+          "reviewedHash": "bf6dbe5cf3285b401bcf6e0323d39f08c4638d1eaaccad0d83cc9aff13a8aaca"
+        },
+        {
+          "id": "osm-camping-18",
+          "url": "https://www.openstreetmap.org/node/1043962487",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4779"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-31",
+      "name": "Camping Puente Palo",
+      "kind": "camping",
+      "region": "Biobío",
+      "locality": "Nacimiento",
+      "coordinates": [
+        -37.4419498,
+        -72.7751011
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/1072362333",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Alternativa de camping y picnic en la zona de Nacimiento. Los servicios básicos requieren confirmación directa.",
+      "highlights": [
+        "Nacimiento",
+        "Picnic"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4708",
+      "sources": [
+        {
+          "id": "camping-directorio-4708",
+          "url": "https://campingenchile.cl/camping/camping-puente-palo-nacimiento-4708",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:06.022Z",
+          "expectedTitle": "Camping Puente Palo Nacimiento",
+          "reviewedHash": "6a7fc54a441f0a0ae63e863d4d1ae9e71b4891eae41bb5e3cee61bf084c50714"
+        },
+        {
+          "id": "osm-camping-31",
+          "url": "https://www.openstreetmap.org/way/1072362333",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4708"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-27",
+      "name": "Camping Trompelhueno",
+      "kind": "camping",
+      "region": "Biobío",
+      "locality": "Quilaco",
+      "coordinates": [
+        -37.7434154,
+        -71.7907084
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/801762044",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Sitios con sombra, servicios básicos y actividades en la zona de Angostura, camino hacia Ralco.",
+      "highlights": [
+        "Angostura",
+        "Servicios por sitio"
+      ],
+      "services": {
+        "toilets": true,
+        "water": true,
+        "showers": true,
+        "electricity": true,
+        "parking": true
+      },
+      "serviceSource": "camping-directorio-4726",
+      "sources": [
+        {
+          "id": "camping-directorio-4726",
+          "url": "https://campingenchile.cl/camping/camping-trompelhueno-de-quilaco-4726",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:03.698Z",
+          "expectedTitle": "Camping Trompelhueno de Quilaco",
+          "reviewedHash": "99d96fd9833f4998690b3ec6cc72cbc6efdd4a8f01fd84ea42f86d8417290ae3"
+        },
+        {
+          "id": "osm-camping-27",
+          "url": "https://www.openstreetmap.org/way/801762044",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "sernatur-trompelhueno",
+          "url": "https://serviciosturisticos.sernatur.cl/nueva_busqueda.php?nombre=camping+trompelhueno",
+          "label": "Sernatur · búsqueda del establecimiento",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4726"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "yes",
+      "phone": "+56965895190",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-19",
+      "name": "Lomas del Río Lía",
+      "kind": "camping",
+      "region": "Biobío",
+      "locality": "Santa Juana",
+      "coordinates": [
+        -37.22506,
+        -73.0214308
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5414298023",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Camping y cabañas junto al río Lía, con baños, duchas y tinajas publicados por el directorio.",
+      "highlights": [
+        "Río Lía",
+        "Carpa y cabañas"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4774",
+      "sources": [
+        {
+          "id": "camping-directorio-4774",
+          "url": "https://campingenchile.cl/camping/lomas-del-rio-lia-4774",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:50:59.118Z",
+          "expectedTitle": "Lomas Del Rio Lia",
+          "reviewedHash": "38ce35ed73b9ed86324aebd00b5af154568e2dbb497cd17569ce27ad3502c62e"
+        },
+        {
+          "id": "osm-camping-19",
+          "url": "https://www.openstreetmap.org/node/5414298023",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4774"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-conguillio",
+      "name": "Parque Nacional Conguillío",
+      "kind": "park",
+      "region": "La Araucanía",
+      "locality": "Melipeuco",
+      "coordinates": [
+        -38.655086,
+        -71.6847086
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18454200",
+      "description": "Paisajes volcánicos, araucarias y senderos con accesos distintos según el sector.",
+      "highlights": [
+        "Araucarias",
+        "Restricciones por sector"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-conguillio",
+      "access": "El aviso consultado restringe Truful Truful–lago Conguillío a vehículos 4×4 de altura media o alta. Captrén y Los Paraguas tienen límites de acceso; Sierra Nevada requiere guía local.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-conguillio",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-conguillio/",
+          "label": "CONAF · Parque Nacional Conguillío",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:04.270Z",
+          "expectedTitle": "Parque Nacional Conguillío",
+          "reviewedHash": "9d80b9afc9e8f331121e0ecfa54fa180bd093b84a91a53e0192579da7e7238a6"
+        },
+        {
+          "id": "geo-parque-nacional-conguillio",
+          "url": "https://www.openstreetmap.org/relation/18454200",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-conguillio"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-conguillio/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-huerquehue",
+      "name": "Parque Nacional Huerquehue",
+      "kind": "park",
+      "region": "La Araucanía",
+      "locality": "Pucón",
+      "coordinates": [
+        -39.1371,
+        -71.6591212
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/6751459",
+      "description": "Senderos y miradores desde el entorno del lago Tinquilco, con camping junto al acceso.",
+      "highlights": [
+        "Lago Tinquilco",
+        "Senderos habilitados por sector"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-huerquehue",
+      "access": "Reapertura informada desde el 12 de agosto de 2026 solo hasta Nido del Águila. Quinchol y San Sebastián tienen cierre anunciado hasta el 15 de diciembre. Verificar antes de ir.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-huerquehue",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-huerquehue/",
+          "label": "CONAF · Parque Nacional Huerquehue",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:03.146Z",
+          "expectedTitle": "Parque Nacional Huerquehue",
+          "reviewedHash": "e4cbd125c1238b2cc9bfb7984687cb1fc21f21571123bf6e12211407f7920405"
+        },
+        {
+          "id": "geo-parque-nacional-huerquehue",
+          "url": "https://www.openstreetmap.org/relation/6751459",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-huerquehue"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-huerquehue/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-villarrica",
+      "name": "Parque Nacional Villarrica",
+      "kind": "park",
+      "region": "La Araucanía",
+      "locality": "Pucón",
+      "coordinates": [
+        -39.4758914,
+        -71.8806854
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/6751346",
+      "description": "Un parque de montaña con varios accesos desde Pucón, Curarrehue y la zona de los lagos.",
+      "highlights": [
+        "Volcanes",
+        "Varios accesos"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-villarrica",
+      "access": "El cierre anunciado para Pichillancahue termina el 15 de septiembre de 2026: eso no confirma su reapertura. La ficha contiene información contradictoria sobre campismo; consultar a CONAF.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-villarrica",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-villarrica/",
+          "label": "CONAF · Parque Nacional Villarrica",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:03.854Z",
+          "expectedTitle": "Parque Nacional Villarrica",
+          "reviewedHash": "4e9b3bbabc44af02c86b9db42c36c0c9635264dec8dc3730f40b62d8a00fd0b1"
+        },
+        {
+          "id": "geo-parque-nacional-villarrica",
+          "url": "https://www.openstreetmap.org/relation/6751346",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-villarrica"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-villarrica/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-40",
+      "name": "Camping Catrico",
+      "kind": "camping",
+      "region": "La Araucanía",
+      "locality": "Villarrica",
+      "coordinates": [
+        -39.1359115,
+        -72.3447432
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/6270060229",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Camping en la zona rural de Villarrica. Consulta los servicios y la temporada antes de elegirlo como parada.",
+      "highlights": [
+        "Zona rural",
+        "Villarrica"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4686",
+      "sources": [
+        {
+          "id": "camping-directorio-4686",
+          "url": "https://campingenchile.cl/camping/camping-catrico-4686",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:11.750Z",
+          "expectedTitle": "Camping Catrico",
+          "reviewedHash": "90c24a5c6522db6e10ad2fe7662595e802969078fa0b55cedcfa94bef8ac20f0"
+        },
+        {
+          "id": "osm-camping-40",
+          "url": "https://www.openstreetmap.org/node/6270060229",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4686"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-extra24",
+      "name": "Camping Huerquehue",
+      "kind": "camping",
+      "region": "La Araucanía",
+      "locality": "Pucón",
+      "coordinates": [
+        -39.1683074,
+        -71.7257258
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2284946070",
+      "coordinateNote": "Ubicación del camping en OpenStreetMap; verifica el acceso y estacionamiento.",
+      "description": "Camping junto al acceso del parque, con cobertizo para cocinar y servicios publicados por CONAF.",
+      "highlights": [
+        "Huerquehue"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-huerquehue",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-huerquehue",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-huerquehue/",
+          "label": "CONAF · Parque Nacional Huerquehue",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:03.146Z",
+          "expectedTitle": "Parque Nacional Huerquehue",
+          "reviewedHash": "e4cbd125c1238b2cc9bfb7984687cb1fc21f21571123bf6e12211407f7920405"
+        },
+        {
+          "id": "osm-extra24",
+          "url": "https://www.openstreetmap.org/node/2284946070",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "CONAF informa asignación por orden de llegada. La apertura parcial del parque no confirma el funcionamiento del camping.",
+      "carAccess": "yes",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-alerce-costero",
+      "name": "Parque Nacional Alerce Costero",
+      "kind": "park",
+      "region": "Los Ríos",
+      "locality": "La Unión / Corral",
+      "coordinates": [
+        -40.0379055,
+        -73.3692312
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/4741376",
+      "description": "Bosque costero y senderos para conocer alerces desde los accesos de Corral y La Unión.",
+      "highlights": [
+        "Alerces",
+        "Reserva de turno"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-parque-nacional-alerce-costero",
+      "access": "El aviso del 8 de agosto de 2026 exige 4×4 y cadenas por Las Trancas hacia Mirador. Para el Alerce Milenario se debe consultar y reservar turno en Pases Parques.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-alerce-costero",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-costero/",
+          "label": "CONAF · Parque Nacional Alerce Costero",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:04.574Z",
+          "expectedTitle": "Parque Nacional Alerce Costero",
+          "reviewedHash": "3771a057261207a8b355aa0a7323ee60046a478591cabb09e9d872ee8695391e"
+        },
+        {
+          "id": "geo-parque-nacional-alerce-costero",
+          "url": "https://www.openstreetmap.org/relation/4741376",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-alerce-costero"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-costero/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "reserva-nacional-mocho-choshuenco",
+      "name": "Reserva Nacional Mocho Choshuenco",
+      "kind": "reserve",
+      "region": "Los Ríos",
+      "locality": "Panguipulli",
+      "coordinates": [
+        -39.9341477,
+        -72.0498559
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/6809831",
+      "description": "Miradores y senderos de montaña sobre la zona de Choshuenco y los lagos interiores.",
+      "highlights": [
+        "Montaña",
+        "Acceso condicionado"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "conaf-reserva-nacional-mocho-choshuenco",
+      "access": "Desde el 8 de agosto de 2026, la fuente informa ingreso por Choshuenco solo con 4×4 y cadenas. Confirmar el estado del tramo final antes de subir.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-reserva-nacional-mocho-choshuenco",
+          "url": "https://www.conaf.cl/parque_nacionales/reserva-nacional-mocho-choshuenco/",
+          "label": "CONAF · Reserva Nacional Mocho Choshuenco",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:04.978Z",
+          "expectedTitle": "Reserva Nacional Mocho Choshuenco",
+          "reviewedHash": "17f5a22f2830493cf9e25d735d3b8c7cd9078a44c1cecda208893a402d5377b1"
+        },
+        {
+          "id": "geo-reserva-nacional-mocho-choshuenco",
+          "url": "https://www.openstreetmap.org/relation/6809831",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-reserva-nacional-mocho-choshuenco"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/reserva-nacional-mocho-choshuenco/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-46",
+      "name": "Camping Entre Coihues · Coñaripe",
+      "kind": "camping",
+      "region": "Los Ríos",
+      "locality": "Panguipulli",
+      "coordinates": [
+        -39.5763262,
+        -71.9903746
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/10649945705",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Sitios para carpa y vehículo con sombra, mesas y enchufes, en la zona de Coñaripe.",
+      "highlights": [
+        "Coñaripe",
+        "Sombra y mesas"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": true,
+        "parking": true
+      },
+      "serviceSource": "camping-directorio-4665",
+      "sources": [
+        {
+          "id": "camping-directorio-4665",
+          "url": "https://campingenchile.cl/camping/camping-co-aripe-entre-coihues-4665",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:15.170Z",
+          "expectedTitle": "Camping Coñaripe Entre Coihues",
+          "reviewedHash": "835b1e87aa2b3a30e2d75bd4beef3f4691fa9886f4c526bd4bee6db7f79f2199"
+        },
+        {
+          "id": "osm-camping-46",
+          "url": "https://www.openstreetmap.org/node/10649945705",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4665"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "yes",
+      "phone": "+56986042080",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-alerce-andino",
+      "name": "Parque Nacional Alerce Andino",
+      "kind": "park",
+      "region": "Los Lagos",
+      "locality": "Puerto Montt",
+      "coordinates": [
+        -41.5730373,
+        -72.5143638
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/18458877",
+      "description": "Senderos de bosque en los sectores Sargazo y Chaicas, al inicio de la Carretera Austral.",
+      "highlights": [
+        "Bosque de alerces",
+        "Sargazo y Chaicas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-alerce-andino",
+      "access": "La fuente publica cierres por día y sector durante septiembre y mantiene cerrados senderos largos. Consultar el calendario completo. El acceso a Chaicas exige doble tracción según CONAF.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-alerce-andino",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-andino/",
+          "label": "CONAF · Parque Nacional Alerce Andino",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:06.774Z",
+          "expectedTitle": "Parque Nacional Alerce Andino",
+          "reviewedHash": "f9eea46fc8b4513d75a84c6b6ff2a3f116b183ec7bb0a5608dd0f5d1f9b11daa"
+        },
+        {
+          "id": "geo-parque-nacional-alerce-andino",
+          "url": "https://www.openstreetmap.org/relation/18458877",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-alerce-andino"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-andino/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-hornopiren",
+      "name": "Parque Nacional Hornopirén",
+      "kind": "park",
+      "region": "Los Lagos",
+      "locality": "Hornopirén",
+      "coordinates": [
+        -41.8892486,
+        -72.2503664
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/14152413",
+      "description": "Una alternativa de senderismo desde Hornopirén para internarse en el bosque de montaña.",
+      "highlights": [
+        "Senderismo",
+        "Camping interior a pie"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-hornopiren",
+      "access": "El camping interior no es un camping para llegar en auto: se accede caminando desde Chaqueihua. CONAF describe varias horas de aproximación; registrar el ingreso con guardaparques.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-hornopiren",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-hornopiren/",
+          "label": "CONAF · Parque Nacional Hornopirén",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:06.390Z",
+          "expectedTitle": "Parque Nacional Hornopirén",
+          "reviewedHash": "e00a696cb203af4d8078509f9666fbf2408585674ca3f24e9d29b012bc1cbdcf"
+        },
+        {
+          "id": "geo-parque-nacional-hornopiren",
+          "url": "https://www.openstreetmap.org/relation/14152413",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-hornopiren"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-hornopiren/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-pumalin-douglas-tompkins",
+      "name": "Parque Nacional Pumalín Douglas Tompkins",
+      "kind": "park",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.1697512,
+        -72.2683808
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/14151682",
+      "description": "Bosques, lagos y campings repartidos entre Caleta Gonzalo y El Amarillo, en el entorno de Chaitén.",
+      "highlights": [
+        "Carretera Austral",
+        "Caleta Gonzalo y El Amarillo"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-pumalin-douglas-tompkins",
+      "access": "Para llegar desde Hornopirén, consultar barcazas y cupo del vehículo. CONAF publica campings por orden de llegada; verificar condiciones y disponibilidad de cada sector.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "geo-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.openstreetmap.org/relation/14151682",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-pumalin-douglas-tompkins"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "booking": "https://www.pasesparques.cl/es",
+      "phone": "+56652436337",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-puyehue",
+      "name": "Parque Nacional Puyehue",
+      "kind": "park",
+      "region": "Los Lagos",
+      "locality": "Puyehue",
+      "coordinates": [
+        -40.6846326,
+        -72.1036145
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/4741077",
+      "description": "Sectores de bosque y senderos accesibles desde la ruta internacional entre Osorno y Puyehue.",
+      "highlights": [
+        "Bosque",
+        "Aguas Calientes y Anticura"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-puyehue",
+      "access": "CONAF publica atención diaria, sin fecha de apertura en el aviso. El ingreso a algunos senderos es concesionado; los recorridos largos requieren autorización. Acceso por la ruta 215-CH.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-puyehue",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-puyehue/",
+          "label": "CONAF · Parque Nacional Puyehue",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:05.286Z",
+          "expectedTitle": "Parque Nacional Puyehue",
+          "reviewedHash": "0c59eb7df02a3eb2907f4d6fdbacb7a83b32b7e93b6ab23e464f54603c927694"
+        },
+        {
+          "id": "geo-parque-nacional-puyehue",
+          "url": "https://www.openstreetmap.org/relation/4741077",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-puyehue"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-puyehue/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "parque-nacional-vicente-perez-rosales",
+      "name": "Parque Nacional Vicente Pérez Rosales",
+      "kind": "park",
+      "region": "Los Lagos",
+      "locality": "Puerto Varas",
+      "coordinates": [
+        -41.0598235,
+        -72.1690078
+      ],
+      "coordinateNote": "Punto referencial del área protegida; no representa una portería ni una ruta habilitada. Confirma el sector de acceso.",
+      "coordinateSource": "https://www.openstreetmap.org/relation/2625616",
+      "description": "Paradas en el entorno de Ensenada y Petrohué para explorar lagos y paisajes volcánicos.",
+      "highlights": [
+        "Petrohué",
+        "Volcán Osorno"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "conaf-parque-nacional-vicente-perez-rosales",
+      "access": "El acceso al volcán Osorno figura habilitado con cadenas obligatorias desde el 12 de agosto de 2026. La fuente advierte problemas en áreas de campismo; buscar alternativas privadas y confirmar.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-vicente-perez-rosales",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-vicente-perez-rosales/",
+          "label": "CONAF · Parque Nacional Vicente Pérez Rosales",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:05.678Z",
+          "expectedTitle": "Parque Nacional Vicente Pérez Rosales",
+          "reviewedHash": "d2d4390ec4d154ee7515720f8a4bdce0b6786dcbfc34e9e3bc60563b5d002836"
+        },
+        {
+          "id": "geo-parque-nacional-vicente-perez-rosales",
+          "url": "https://www.openstreetmap.org/relation/2625616",
+          "label": "Ubicación referencial · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-parque-nacional-vicente-perez-rosales"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-vicente-perez-rosales/",
+      "booking": "https://www.pasesparques.cl/es",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra2",
+      "name": "Camping Cascadas Escondidas",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.6756771,
+        -72.579963
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2821961990",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Camping del sector oeste de Pumalín, junto al inicio de senderos.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra2",
+          "url": "https://www.openstreetmap.org/node/2821961990",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La ficha de 2025 describe baños, duchas frías y estacionamiento. Confirmar servicios actuales y cupos; la información de infraestructura no confirma apertura.",
+      "carAccess": "unknown",
+      "phone": "+56652436337",
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-53",
+      "name": "Camping Donde Matías",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Puyehue",
+      "coordinates": [
+        -40.6906824,
+        -72.3355621
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/10579827241",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Una alternativa para acampar junto a un río en la zona de Puyehue. Confirma baños y temporada con el establecimiento.",
+      "highlights": [
+        "Puyehue",
+        "Entorno de río"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4766",
+      "sources": [
+        {
+          "id": "camping-directorio-4766",
+          "url": "https://campingenchile.cl/camping/camping-donde-mat-as-4766",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:18.826Z",
+          "expectedTitle": "Camping Donde Matías",
+          "reviewedHash": "4f3dbf04aedde2de67be24a24ce9574989a4d477fd2538f0a8b601405ca7e0e4"
+        },
+        {
+          "id": "osm-camping-53",
+          "url": "https://www.openstreetmap.org/node/10579827241",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4766"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-dona-martina",
+      "name": "Camping Doña Martina",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Hornopirén",
+      "coordinates": [
+        -41.9624284,
+        -72.4669178
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/4691528493",
+      "coordinateNote": "Ubicación contrastada en OpenStreetMap. Confirma la entrada.",
+      "description": "Camping urbano con sitios techados y al aire libre, útil como parada antes de seguir hacia Chaitén.",
+      "highlights": [
+        "Hornopirén",
+        "Sitios techados publicados"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": true,
+        "parking": null
+      },
+      "serviceSource": "hornopiren-guia",
+      "sources": [
+        {
+          "id": "hornopiren-guia",
+          "url": "https://www.visitarchile.com/los-lagos/hornopiren/camping-hornopiren/camping-en-hornopiren/",
+          "label": "VisitarChile · guía de Hornopirén",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-martina",
+          "url": "https://www.openstreetmap.org/node/4691528493",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La guía publica baños, duchas calientes y electricidad. Confirma apertura, cupos y horarios antes de coordinar la barcaza.",
+      "carAccess": "unknown",
+      "phone": "+56652217273",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra20",
+      "name": "Camping El Volcán · Pumalín",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.7813818,
+        -72.6444071
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/253990412",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Camping del sector oeste, en la ruta hacia Chaitén.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra20",
+          "url": "https://www.openstreetmap.org/node/253990412",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La ficha de 2025 describe baños, duchas frías y estacionamiento. Confirmar servicios actuales y cupos; la información de infraestructura no confirma apertura.",
+      "carAccess": "unknown",
+      "phone": "+56652436337",
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-hornopiren",
+      "name": "Camping Hornopirén",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Hornopirén",
+      "coordinates": [
+        -41.9702437,
+        -72.4868381
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/6515403633",
+      "coordinateNote": "Ubicación contrastada en OpenStreetMap. Confirma la entrada.",
+      "description": "Una alternativa urbana para pasar la noche en Hornopirén antes del tramo de navegación.",
+      "highlights": [
+        "Hornopirén",
+        "Parada urbana"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "directorio-hornopiren",
+      "sources": [
+        {
+          "id": "directorio-hornopiren",
+          "url": "https://campingenchile.cl/categoria/camping/camping-hornopiren/3786",
+          "label": "Camping en Chile · Camping Hornopirén",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-hornopiren",
+          "url": "https://www.openstreetmap.org/node/6515403633",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "Baños y duchas publicados en el directorio. Consulta los demás servicios y la apertura antes de llegar.",
+      "carAccess": "unknown",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra3",
+      "name": "Camping Lago Blanco · Pumalín",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.7511792,
+        -72.6042124
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2821961986",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Una parada junto a Lago Blanco, en el sector oeste de Pumalín.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra3",
+          "url": "https://www.openstreetmap.org/node/2821961986",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La ficha de 2025 describe baños, duchas frías y estacionamiento. Confirmar servicios actuales y cupos; la información de infraestructura no confirma apertura.",
+      "carAccess": "unknown",
+      "phone": "+56652436337",
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra21",
+      "name": "Camping Lago Negro · Pumalín",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.7148334,
+        -72.5823895
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2821961988",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Camping en el entorno de Lago Negro, dentro de Pumalín.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra21",
+          "url": "https://www.openstreetmap.org/node/2821961988",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La ficha de 2025 describe baños, duchas frías y estacionamiento. Confirmar servicios actuales y cupos; la información de infraestructura no confirma apertura.",
+      "carAccess": "unknown",
+      "phone": "+56652436337",
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "camping-60",
+      "name": "Camping Las Tranqueras",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Puerto Varas",
+      "coordinates": [
+        -41.2216675,
+        -72.5542393
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5714502021",
+      "coordinateNote": "Punto del establecimiento contrastado en OpenStreetMap; confirma la entrada con el camping. Se descartó la coordenada del directorio cuando no coincidía.",
+      "description": "Camping de ambiente rural en la zona de Puerto Varas, con actividades de cabalgata publicadas.",
+      "highlights": [
+        "Entorno rural",
+        "Cabalgatas publicadas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "serviceSource": "camping-directorio-4701",
+      "sources": [
+        {
+          "id": "camping-directorio-4701",
+          "url": "https://campingenchile.cl/camping/camping-cabalgatas-y-quincho-las-tranqueras-4701",
+          "label": "Camping en Chile · directorio",
+          "adapter": "directory",
+          "checkedAt": "2026-09-12T18:51:23.350Z",
+          "expectedTitle": "Camping, Cabalgatas Y Quincho Las Tranqueras",
+          "reviewedHash": "142431cd07c75167615f63d23486b4d26ef57563ff08b04e722f1d099513d880"
+        },
+        {
+          "id": "osm-camping-60",
+          "url": "https://www.openstreetmap.org/node/5714502021",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [
+        "camping-directorio-4701"
+      ],
+      "access": "Consulta apertura para primavera, estado del acceso y disponibilidad antes de llegar. Los servicios son los publicados, no una inspección reciente.",
+      "carAccess": "unknown",
+      "phone": "+56984275856",
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra0",
+      "name": "Camping Río Gonzalo",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.5625955,
+        -72.6024974
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/253990192",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Camping en Caleta Gonzalo, próximo a la llegada de la barcaza.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra0",
+          "url": "https://www.openstreetmap.org/node/253990192",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "Camping concesionado en Caleta Gonzalo. Consultar disponibilidad y condiciones directamente con el operador; no aplicar automáticamente las reglas de los campings administrados por CONAF.",
+      "carAccess": "unknown",
+      "phone": "+56996173311",
+      "website": "https://lodgecaletagonzalo.cl/es/camping/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "pumalin-extra23",
+      "name": "Camping Ventisquero · El Amarillo",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chaitén",
+      "coordinates": [
+        -42.9444251,
+        -72.4759182
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2821961995",
+      "coordinateNote": "Punto del camping en OpenStreetMap. Verifica habilitación del acceso con la administración.",
+      "description": "Camping del sector sur de Pumalín, accesible desde El Amarillo.",
+      "highlights": [
+        "Pumalín",
+        "Carretera Austral"
+      ],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": true
+      },
+      "serviceSource": "pumalin-infraestructura-2025",
+      "sources": [
+        {
+          "id": "conaf-parque-nacional-pumalin-douglas-tompkins",
+          "url": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+          "label": "CONAF · Parque Nacional Pumalín Douglas Tompkins",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T19:01:07.106Z",
+          "expectedTitle": "Parque Nacional Pumalín Douglas Tompkins",
+          "reviewedHash": "26d2374ae8bce72a9d4b020931115da477534e844a6a710c550eab350c2ab7de"
+        },
+        {
+          "id": "pumalin-infraestructura-2025",
+          "url": "https://chaitentv.cl/wp-content/uploads/2025/01/abc_Parque-Nacional-Pumalin-Douglas-Tompkins-2025.pdf",
+          "label": "Ficha de infraestructura Pumalín · temporada 2025 (Chaitén TV)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        },
+        {
+          "id": "osm-pumalin-extra23",
+          "url": "https://www.openstreetmap.org/node/2821961995",
+          "label": "Ubicación · OpenStreetMap",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T19:16:08.380033Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "access": "La ficha de 2025 indica acceso exclusivo con doble tracción. Confirmar habilitación del camino desde El Amarillo y servicios actuales.",
+      "carAccess": "restricted",
+      "phone": "+56652436337",
+      "website": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+      "routes": [
+        "austral"
+      ],
+      "themes": []
+    },
+    {
+      "id": "cementerio-general-santiago",
+      "name": "Cementerio General de Santiago",
+      "kind": "cemetery",
+      "region": "Metropolitana",
+      "locality": "Recoleta",
+      "coordinates": [
+        -33.4132086,
+        -70.6482321
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/197839099",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una primera parada entre mausoleos, memoria y recorridos nocturnos, antes de partir hacia el sur.",
+      "highlights": [
+        "Cementerios y patrimonio",
+        "Mitos y leyendas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Visita diurna o tour oficial con inscripción. Los recorridos nocturnos dependen del calendario y de los cupos del cementerio; no equivalen a acceso nocturno libre.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "cementerio-general-tours",
+          "url": "https://cementeriogeneral.cl/preguntas-frecuentes-4/",
+          "label": "Cementerio General · Visitas y tours",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Preguntas Frecuentes",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "d6d3911d5a40baa38eeeb62076111cdf412c4a2b8a7ddecdb2cbe3e0080d5389"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "heritage",
+        "myths"
+      ],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://cementeriogeneral.cl/preguntas-frecuentes-4/",
+      "story": {
+        "label": "Patrimonio e interpretación",
+        "text": "Los recorridos oficiales acercan la historia del cementerio y sus personajes en un ambiente nocturno. El tono tenebroso pertenece a la experiencia y a los relatos; no acredita fenómenos sobrenaturales.",
+        "sourceId": "cementerio-general-tours"
+      },
+      "booking": "https://tour.cementeriogeneral.cl/categoria-producto/tours-nocturnos/"
+    },
+    {
+      "id": "talagante-tierra-de-brujos",
+      "name": "Talagante, tierra de brujos",
+      "kind": "town",
+      "region": "Metropolitana",
+      "locality": "Talagante",
+      "coordinates": [
+        -33.6644388,
+        -70.9302778
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/relation/1626706",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Un desvío desde Santiago para acercarse a una tradición de hechiceros, transformaciones y relatos transmitidos de generación en generación.",
+      "highlights": [
+        "Mitos y leyendas",
+        "Cementerios y patrimonio"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "La ubicación representa la localidad, no una cueva ni una consulta esotérica. Empieza por el centro y consulta la programación cultural local.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "talagante-folclore",
+          "url": "https://es.wikisource.org/wiki/Enciclopedia_Chilena/Folclore/Brujos",
+          "label": "Enciclopedia Chilena · Folclore, transcripción en Wikisource",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "myths",
+        "heritage"
+      ],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://es.wikisource.org/wiki/Enciclopedia_Chilena/Folclore/Brujos",
+      "story": {
+        "label": "Tradición oral · brujos de Talagante",
+        "text": "La recopilación folclórica recoge un relato de un brujo que invita a un amigo a una fiesta y transforma su apariencia para cruzar un río. Se presenta como creencia popular, no como un hecho comprobado.",
+        "sourceId": "talagante-folclore"
+      }
+    },
+    {
+      "id": "quicavi-brujos",
+      "name": "Quicaví, relatos de la Recta Provincia",
+      "kind": "town",
+      "region": "Los Lagos",
+      "locality": "Quemchi",
+      "coordinates": [
+        -42.2720791,
+        -73.3518523
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1506923398",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una localidad costera de Chiloé asociada a los relatos de brujos, la Recta Provincia y la legendaria cueva del Invunche.",
+      "highlights": [
+        "Mitos y leyendas",
+        "Cementerios y patrimonio"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Recorre la localidad y consulta por actividades culturales. No hay aquí un acceso verificado a la cueva legendaria; el punto del mapa identifica el pueblo.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "quicavi-entorno",
+          "url": "https://www.lagunaquemchi.cl/entorno/",
+          "label": "Laguna Quemchi · Entorno de Quicaví",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "recta-provincia",
+          "url": "https://www.memoriachilena.cl/archivos2/pdfs/MC0037759.pdf",
+          "label": "Biblioteca Nacional · Reyes sobre la tierra",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "myths",
+        "heritage"
+      ],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.lagunaquemchi.cl/entorno/",
+      "story": {
+        "label": "Mitología chilota",
+        "text": "La tradición sitúa en Quicaví la sede de los brujos y una cueva custodiada por el Invunche. Las narraciones mezclan memoria local y mitología; la cueva no se señala como un recinto turístico confirmado.",
+        "sourceId": "quicavi-entorno"
+      }
+    },
+    {
+      "id": "isla-aucar",
+      "name": "Isla Aucar, de las almas navegantes",
+      "kind": "cemetery",
+      "region": "Los Lagos",
+      "locality": "Quemchi",
+      "coordinates": [
+        -42.1614699,
+        -73.4793184
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/13248222",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una pasarela conduce a una pequeña isla con capilla, cementerio y vegetación nativa: una parada para caminar despacio junto al mar interior.",
+      "highlights": [
+        "Mitos y leyendas",
+        "Cementerios y patrimonio"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Acceso peatonal por la pasarela desde Aucar. Respetar los horarios y ceremonias del cementerio; consultar condiciones de la pasarela.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "chiloe-misterios",
+          "url": "https://chile.travel/blog/tres-lugares-de-chiloe-llenos-de-misterios-que-debes-conocer/",
+          "label": "Chile Travel · Lugares de Chiloé llenos de misterios",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "myths",
+        "heritage"
+      ],
+      "routes": [
+        "main"
+      ],
+      "website": "https://chile.travel/blog/tres-lugares-de-chiloe-llenos-de-misterios-que-debes-conocer/",
+      "story": {
+        "label": "Memoria literaria",
+        "text": "Francisco Coloane llamó a Aucar la Isla de las Almas Navegantes, imaginándola como una embarcación cuyos muertos esperan partir. Es una imagen literaria ligada al paisaje y al cementerio.",
+        "sourceId": "chiloe-misterios"
+      }
+    },
+    {
+      "id": "cementerio-huillinco",
+      "name": "Cementerio de Huillinco",
+      "kind": "cemetery",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Huillinco",
+      "coordinates": [
+        -42.6753044,
+        -73.8964022
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/191304543",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Arquitectura funeraria chilota en una parada junto al lago Huillinco, en el desvío hacia Cucao.",
+      "highlights": [
+        "Cementerios y patrimonio"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Consultar horario y acceso local. Es un cementerio en uso: prioriza la visita diurna y el respeto de las ceremonias.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "chiloe-cementerios",
+          "url": "https://chileestuyo.cl/8-cementerios-de-chile/",
+          "label": "Sernatur · Cementerios de Chile",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "heritage"
+      ],
+      "routes": [
+        "main"
+      ],
+      "website": "https://chileestuyo.cl/8-cementerios-de-chile/",
+      "story": {
+        "label": "Patrimonio funerario chilote",
+        "text": "Las casas-tumbas de los cementerios rurales de Chiloé evocan las viviendas de quienes descansan en ellas. Huillinco forma parte de los ejemplos destacados por Sernatur.",
+        "sourceId": "chiloe-cementerios"
+      }
+    },
+    {
+      "id": "cementerio-teupa",
+      "name": "Iglesia y cementerio de Teupa",
+      "kind": "cemetery",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Teupa",
+      "coordinates": [
+        -42.6689317,
+        -73.6833393
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/214231393",
+      "coordinateNote": "Punto de la localidad de Teupa, no del cementerio ni de su acceso. La fuente turística sitúa la iglesia y cementerio al sur de Chonchi, camino a Queilen.",
+      "description": "Una parada de patrimonio rural chilote junto al canal Yal, con capilla y cementerio en el camino hacia Queilen.",
+      "highlights": [
+        "Cementerios y patrimonio"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "El mapa sitúa la localidad de Teupa. Busca la iglesia y confirma la entrada al cementerio con la comunidad; no se dispone de un punto verificado de su portón.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "chiloe-cementerios",
+          "url": "https://chileestuyo.cl/8-cementerios-de-chile/",
+          "label": "Sernatur · Cementerios de Chile",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "teupa-turismo",
+          "url": "https://chonchi.somoscreativos.cl/iglesia-de-teupa/",
+          "label": "Turismo de Chonchi · Iglesia de Teupa",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "heritage"
+      ],
+      "routes": [
+        "main"
+      ],
+      "website": "https://chileestuyo.cl/8-cementerios-de-chile/",
+      "story": {
+        "label": "Patrimonio funerario chilote",
+        "text": "Sernatur destaca en Teupa las pequeñas figuras, estrellas y cruces que adornan los techos de las tumbas. La visita permite observar una forma local de recordar a quienes han muerto.",
+        "sourceId": "chiloe-cementerios"
+      }
+    },
+    {
+      "id": "muelle-de-las-almas",
+      "name": "Muelle de las Almas",
+      "kind": "attraction",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Rahue",
+      "coordinates": [
+        -42.7137669,
+        -74.1560242
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/317082028",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una obra en el paisaje costero de Chiloé que invita a conocer la leyenda del viaje de las almas.",
+      "highlights": [
+        "Mitos y leyendas"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Desde Cucao continúa hacia Rahue y confirma la entrada habilitada. Hay caminata sobre terreno expuesto: consulta duración, barro, viento y condiciones antes de reservar tiempo para la visita.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "chiloe-misterios",
+          "url": "https://chile.travel/blog/tres-lugares-de-chiloe-llenos-de-misterios-que-debes-conocer/",
+          "label": "Chile Travel · Lugares de Chiloé llenos de misterios",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "muelle-cultura",
+          "url": "https://chile.travel/blog/descubre-los-fantasticos-mitos-y-leyendas-de-chiloe-un-lugar-lleno-de-misterios-2/",
+          "label": "Chile Travel · Mitología chilota",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [
+        "myths"
+      ],
+      "routes": [
+        "main"
+      ],
+      "website": "https://chile.travel/blog/tres-lugares-de-chiloe-llenos-de-misterios-que-debes-conocer/",
+      "story": {
+        "label": "Arte y leyenda chilota",
+        "text": "La obra del escultor Marcelo Orellana dialoga con los relatos chilotes del tránsito de las almas. Se visita como una interpretación artística en un paisaje real, no como un muelle de transporte.",
+        "sourceId": "chiloe-misterios"
+      },
+      "walk": {
+        "description": "Requiere una caminata; no se clasifica como paseo de menos de una hora sin confirmar el acceso y el recorrido completo.",
+        "sourceId": "chiloe-misterios"
+      }
+    },
+    {
+      "id": "muela-del-diablo",
+      "name": "Muela del Diablo",
+      "kind": "attraction",
+      "region": "Maule",
+      "locality": "San Clemente · Paso Pehuenche",
+      "coordinates": [
+        -35.9414115,
+        -70.5931869
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/1238966796",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Formación de roca volcánica en el Valle de los Cóndores. Se puede combinar con Monjes Blancos y la Cascada Invertida en un desvío cordillerano desde Talca.",
+      "highlights": [
+        "Paso Pehuenche",
+        "Desvío desde Talca",
+        "Acceso cordillerano"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Acceso al sector por la Ruta 115-CH. Verifica avisos de camino, nieve y condiciones locales; la apertura del paso internacional no certifica todos los senderos. La roca está separada del estacionamiento.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "san-clemente-turismo",
+          "url": "https://www.sanclemente.cl/turismo/experiencias/",
+          "label": "Municipalidad de San Clemente · Miradores de cordillera",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "pehuenche-catalogo",
+          "url": "https://turismopasopehuenche.cl/wp-content/uploads/2026/01/Catalogo-Paso-Pehuenche-FINAL-1_compressed.pdf",
+          "label": "Turismo Paso Pehuenche · Catálogo de atractivos",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://www.sanclemente.cl/turismo/experiencias/",
+      "walk": {
+        "description": "El catálogo de Paso Pehuenche describe una aproximación de 2 km desde El Campanario. No indica tiempo total ni si esa distancia incluye regreso: confirmar el sendero y prever una visita de mayor esfuerzo que un mirador.",
+        "km": 2,
+        "sourceId": "pehuenche-catalogo"
+      }
+    },
+    {
+      "id": "cascada-invertida",
+      "name": "Cascada Invertida",
+      "kind": "attraction",
+      "region": "Maule",
+      "locality": "San Clemente · Paso Pehuenche",
+      "coordinates": [
+        -35.9545842,
+        -70.5736355
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2071941781",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Un salto de agua del Alto Maule donde el viento puede levantar el agua y crear la ilusión de una cascada que sube.",
+      "highlights": [
+        "Paso Pehuenche",
+        "Desvío desde Talca",
+        "Acceso cordillerano"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Desvío cordillerano por Ruta 115-CH. Confirma el sendero de acceso y evita acercarte a bordes expuestos. El efecto depende del viento y no está garantizado el día de la visita.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "cascada-invertida-turismo",
+          "url": "https://turismopasopehuenche.cl/cascada-invertida/",
+          "label": "Turismo Paso Pehuenche · Cascada Invertida",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "san-clemente-turismo",
+          "url": "https://www.sanclemente.cl/turismo/experiencias/",
+          "label": "Municipalidad de San Clemente · Miradores de cordillera",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://turismopasopehuenche.cl/cascada-invertida/",
+      "walk": {
+        "description": "Hay aproximación a pie sobre terreno de montaña. Las fuentes consultadas no permiten asegurar duración ni accesibilidad universal: consultar el acceso antes de ir.",
+        "sourceId": "cascada-invertida-turismo"
+      }
+    },
+    {
+      "id": "monjes-blancos",
+      "name": "Monjes Blancos",
+      "kind": "attraction",
+      "region": "Maule",
+      "locality": "San Clemente · Paso Pehuenche",
+      "coordinates": [
+        -35.9884241,
+        -70.5563777
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/2071910422",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Formaciones geológicas del corredor Pehuenche para sumar al día de la Muela del Diablo y la Cascada Invertida.",
+      "highlights": [
+        "Paso Pehuenche",
+        "Desvío desde Talca",
+        "Acceso cordillerano"
+      ],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "La municipalidad identifica miradores habilitados en el corredor. Detente en zonas de estacionamiento autorizadas y confirma el punto de observación disponible.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "san-clemente-turismo",
+          "url": "https://www.sanclemente.cl/turismo/experiencias/",
+          "label": "Municipalidad de San Clemente · Miradores de cordillera",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://www.sanclemente.cl/turismo/experiencias/"
+    },
+    {
+      "id": "monumento-natural-cerro-nielol",
+      "name": "Monumento Natural Cerro Ñielol",
+      "kind": "monument",
+      "region": "La Araucanía",
+      "locality": "Temuco",
+      "coordinates": [
+        -38.7236202,
+        -72.58829
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/relation/13254863",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Bosque y miradores sobre Temuco, con senderos breves y patrimonio local.",
+      "highlights": [],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Acceso publicado por Arturo Prat; CONAF señala subida y bajada por vías diferentes. Revisar horarios y avisos especiales de mantención.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-monumento-natural-cerro-nielol",
+          "url": "https://www.conaf.cl/parque_nacionales/monumento-natural-cerro-nielol/",
+          "label": "CONAF · Monumento Natural Cerro Ñielol",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Monumento Natural Cerro Ñielol",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "85c456980b769c54cf8e8ef7a222e9d385179ceb67cbb529b925062b7b4a9e1c"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-monumento-natural-cerro-nielol"
+      ],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/monumento-natural-cerro-nielol/",
+      "serviceSource": "conaf-monumento-natural-cerro-nielol",
+      "walk": {
+        "description": "Despierta Tus Sentidos: 188 m y 15 minutos de ida según CONAF. Escoge un sendero corto y añade el tiempo de regreso.",
+        "sourceId": "conaf-monumento-natural-cerro-nielol"
+      },
+      "booking": "https://www.pasesparques.cl/es"
+    },
+    {
+      "id": "monumento-natural-contulmo",
+      "name": "Monumento Natural Contulmo",
+      "kind": "monument",
+      "region": "La Araucanía",
+      "locality": "Purén y Los Sauces",
+      "coordinates": [
+        -38.0132649,
+        -73.1874902
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5049191311",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Un bosque de helechos y árboles nativos, con picnic y senderos en el entorno de Nahuelbuta.",
+      "highlights": [],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "access": "Acceso vial publicado desde Purén o Contulmo. Verificar portería y horarios; el sendero completo puede exceder una visita breve.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-monumento-natural-contulmo",
+          "url": "https://www.conaf.cl/parque_nacionales/monumento-natural-contulmo/",
+          "label": "CONAF · Monumento Natural Contulmo",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Monumento Natural Contulmo",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "e64b25850007d7063f196d8cb9b249ad9618eccc0b93f054a43b1c03c54933f6"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-monumento-natural-contulmo"
+      ],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/monumento-natural-contulmo/",
+      "serviceSource": "conaf-monumento-natural-contulmo",
+      "walk": {
+        "description": "Los Helechos: CONAF publica 3,3 km y una hora de ida. El recorrido completo supera la preferencia de una hora; consultar una visita breve al sector de acceso.",
+        "sourceId": "conaf-monumento-natural-contulmo"
+      },
+      "booking": "https://www.pasesparques.cl/es"
+    },
+    {
+      "id": "monumento-natural-lahuen-nadi",
+      "name": "Monumento Natural Lahuen Ñadi",
+      "kind": "monument",
+      "region": "Los Lagos",
+      "locality": "Puerto Montt",
+      "coordinates": [
+        -41.4032996,
+        -73.0286683
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/464139984",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Un alerzal próximo a Puerto Montt, con pasarelas y un recorrido para conocer el bosque húmedo.",
+      "highlights": [],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": true
+      },
+      "access": "Entrada desde Lagunitas, por ruta 226. Coordinar con guardaparques la apertura del portón antes de llegar; puede haber espera.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-monumento-natural-lahuen-nadi",
+          "url": "https://www.conaf.cl/parque_nacionales/monumento-natural-lahuen-nadi/",
+          "label": "CONAF · Monumento Natural Lahuen Ñadi",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Monumento Natural Lahuen Ñadi",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "f4c384d01d765ce09a86dd5a5bd33171fab92d66285e3fb153a1874341e44ce5"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-monumento-natural-lahuen-nadi"
+      ],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/monumento-natural-lahuen-nadi/",
+      "serviceSource": "conaf-monumento-natural-lahuen-nadi",
+      "walk": {
+        "description": "Sendero El Chucao: pasarela de 600 m lineales y acceso universal publicado por CONAF. Consultar su estado antes de la visita.",
+        "sourceId": "conaf-monumento-natural-lahuen-nadi"
+      },
+      "booking": "https://www.pasesparques.cl/es"
+    },
+    {
+      "id": "monumento-natural-islotes-de-punihuil",
+      "name": "Monumento Natural Islotes de Puñihuil",
+      "kind": "monument",
+      "region": "Los Lagos",
+      "locality": "Ancud · Puñihuil",
+      "coordinates": [
+        -41.9259216,
+        -74.0411279
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/527118977",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Islotes frente a una caleta de Chiloé, conocidos por sus aves y colonias de pingüinos.",
+      "highlights": [],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Llegada por W-20 y desvío desde Piedra Rum. La visita a los islotes es una navegación alrededor de ellos: no se desembarca. Confirmar condiciones marítimas.",
+      "carAccess": "yes",
+      "sources": [
+        {
+          "id": "conaf-monumento-natural-islotes-de-punihuil",
+          "url": "https://www.conaf.cl/parque_nacionales/monumento-natural-islotes-de-punihuil/",
+          "label": "CONAF · Monumento Natural Islotes de Puñihuil",
+          "adapter": "conaf",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Monumento Natural Islotes de Puñihuil",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "d473d100bdf1f60a0f9ef530470ab931a47903598610c710556c6f07cf732e5a"
+        }
+      ],
+      "statusSourceIds": [
+        "conaf-monumento-natural-islotes-de-punihuil"
+      ],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.conaf.cl/parque_nacionales/monumento-natural-islotes-de-punihuil/",
+      "walk": {
+        "description": "CONAF describe navegaciones de unos 30 minutos; no son caminatas por los islotes. En la caleta hay miradores.",
+        "sourceId": "conaf-monumento-natural-islotes-de-punihuil"
+      },
+      "booking": "https://www.pasesparques.cl/es"
+    },
+    {
+      "id": "salto-del-laja",
+      "name": "Salto del Laja",
+      "kind": "attraction",
+      "region": "Biobío",
+      "locality": "Los Ángeles · Saltos del Laja",
+      "coordinates": [
+        -37.2197842,
+        -72.3788148
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1883444040",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una parada para contemplar las caídas del río Laja en el viaje por la Ruta 5, con campings cercanos en el catálogo.",
+      "highlights": [],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Busca el acceso habilitado y estacionamiento del sector. Consulta condiciones del sendero, caudal y tarifas de servicios privados.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "laja-patrimonio",
+          "url": "https://www.chilepatrimonios.gob.cl/ficha?doi=03FTP-30052",
+          "label": "Servicio del Patrimonio Cultural · Salto del Laja",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "website": "https://www.chilepatrimonios.gob.cl/ficha?doi=03FTP-30052"
+    },
+    {
+      "id": "camping-paraiso-ancud",
+      "name": "Camping Paraíso · Ancud",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Ancud",
+      "coordinates": [
+        -41.8644435,
+        -73.8161541
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/5543394321",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Sitios con mesa y cubierta, una alternativa urbana en Ancud para comenzar la visita a Chiloé.",
+      "highlights": [],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": true,
+        "electricity": true,
+        "parking": null
+      },
+      "access": "La ficha municipal sitúa el camping en El Cerro. Confirma la entrada, estacionamiento y cupos; el agua caliente tiene horarios publicados por el establecimiento.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "ancud-paraiso",
+          "url": "https://www.ancud.cl/directory-servicios_tu/listing/camping-paraiso/",
+          "label": "Municipalidad de Ancud · Camping Paraíso",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Camping Paraíso",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "a0efa9642249999b5538b743efae3599f7853535c59b54736f51a70b917e6d4f"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.ancud.cl/directory-servicios_tu/listing/camping-paraiso/",
+      "serviceSource": "ancud-paraiso",
+      "phone": "+56979191817"
+    },
+    {
+      "id": "camping-huillinco",
+      "name": "Camping Huillinco",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Huillinco",
+      "coordinates": [
+        -42.6737204,
+        -73.8974165
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1540338599",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una alternativa a consultar junto al lago Huillinco, en el camino que une Chonchi con Cucao.",
+      "highlights": [],
+      "services": {
+        "toilets": null,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "La guía municipal identifica el camping, pero no fecha su vigencia ni detalla servicios. Confirmar funcionamiento, baños, agua y duchas antes de elegirlo; no se trasladan servicios de otros campings con el mismo nombre.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "chonchi-alojamiento",
+          "url": "https://www.municipalidadchonchi.cl/attachments/article/190/Alojamiento.pdf",
+          "label": "Municipalidad de Chonchi · Directorio sin vigencia fechada",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.municipalidadchonchi.cl/attachments/article/190/Alojamiento.pdf"
+    },
+    {
+      "id": "camping-la-abuela-cucao",
+      "name": "Camping La Abuela · Cucao",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Cucao",
+      "coordinates": [
+        -42.6271426,
+        -74.0883466
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/320469107",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Un camping junto al lago Cucao con refugio para lluvia y servicios publicados por su operador.",
+      "highlights": [],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": true,
+        "parking": null
+      },
+      "access": "Se llega a un embarcadero tras cruzar el puente de Cucao y se coordina una embarcación al camping. Consulta dónde dejar el auto y el costo del traslado; no se llega conduciendo hasta el sitio.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "abuela-camping",
+          "url": "https://campinglaabuela.cl/camping/",
+          "label": "Camping La Abuela · Servicios",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Camping",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "62dd3780f8423d3608aa6a710f3e919a3804926ab9230a6c5e52fe5447c05197"
+        },
+        {
+          "id": "abuela-acceso",
+          "url": "https://campinglaabuela.cl/como-llegar/",
+          "label": "Camping La Abuela · Cómo llegar",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://campinglaabuela.cl/camping/",
+      "serviceSource": "abuela-camping"
+    },
+    {
+      "id": "camping-el-mirador-cucao",
+      "name": "Camping El Mirador · Cucao",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Chonchi · Chanquin",
+      "coordinates": [
+        -42.6200711,
+        -74.1117768
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/1540334357",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Una alternativa en Chanquin, cerca de Cucao, con baños y duchas descritos en el directorio turístico.",
+      "highlights": [],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": true,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Confirmar vigencia, acceso para tu vehículo y disponibilidad directamente con el establecimiento. Las tarifas y los horarios necesitan comprobación.",
+      "carAccess": "unknown",
+      "sources": [
+        {
+          "id": "mirador-cucao",
+          "url": "https://campingenchile.cl/categoria/camping-en-chile/camping-el-mirador/2792",
+          "label": "Camping en Chile · El Mirador",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        },
+        {
+          "id": "chonchi-alojamiento",
+          "url": "https://www.municipalidadchonchi.cl/attachments/article/190/Alojamiento.pdf",
+          "label": "Municipalidad de Chonchi · Directorio sin vigencia fechada",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://campingenchile.cl/categoria/camping-en-chile/camping-el-mirador/2792",
+      "serviceSource": "mirador-cucao"
+    },
+    {
+      "id": "camping-chaiguata",
+      "name": "Camping Chaiguata · Tantauco",
+      "kind": "camping",
+      "region": "Los Lagos",
+      "locality": "Quellón · Tantauco",
+      "coordinates": [
+        -43.1166015,
+        -73.9442373
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/3826521100",
+      "coordinateNote": "Punto referencial contrastado con OpenStreetMap. Revisa la entrada y el acceso antes de dirigirte al lugar.",
+      "description": "Camping en un parque privado del sur de Chiloé, con sitios techados y espacios comunes para refugiarse de la lluvia.",
+      "highlights": [],
+      "services": {
+        "toilets": true,
+        "water": null,
+        "showers": null,
+        "electricity": null,
+        "parking": null
+      },
+      "access": "Reserva con la administración. El operador recomienda vehículos altos: desde Ruta 5 hay camino de ripio a Yaldad y luego a Chaiguata. Para un auto bajo, confirmar condiciones y transporte alternativo antes de entrar.",
+      "carAccess": "restricted",
+      "sources": [
+        {
+          "id": "tantauco-camping",
+          "url": "https://www.parquetantauco.cl/alojamiento/",
+          "label": "Parque Tantauco · Camping",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Alojamiento",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "89c7ea65bebddedf96a827d4cbedece5b0185ee2a2f9354e29e524bf99189882"
+        },
+        {
+          "id": "tantauco-acceso",
+          "url": "https://parquetantauco.cl/preguntas-frecuentes/",
+          "label": "Parque Tantauco · Accesos",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z"
+        }
+      ],
+      "statusSourceIds": [],
+      "themes": [],
+      "routes": [
+        "main"
+      ],
+      "website": "https://www.parquetantauco.cl/alojamiento/",
+      "serviceSource": "tantauco-camping",
+      "booking": "https://parquetantauco.cl/reservas/"
+    }
+  ],
+  "ferries": [
+    {
+      "id": "chacao",
+      "name": "Pargua–Chacao",
+      "operator": "Transmarchilay",
+      "vehicles": true,
+      "routes": [
+        "main"
+      ],
+      "terminals": [
+        {
+          "name": "Rampa Pargua",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Pargua%20Chile"
+        },
+        {
+          "name": "Rampa Chacao",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Chacao%20Chile"
+        }
+      ],
+      "booking": "https://www.transmarchilay.cl/horarios-y-tarifas/",
+      "duration": "Consultar duración y espera",
+      "bookingNote": "Consultar modalidad de embarque y medios de pago con el operador; el tiempo de espera varía.",
+      "schedule": "Operación publicada durante las 24 horas; consultar salidas por nave y estado operacional.",
+      "fare": "Sedán/hatchback: tarifa general publicada $20.500 por cruce, desde enero de 2026. Confirmar categoría, pasajeros y condiciones.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-chacao",
+          "url": "https://www.transmarchilay.cl/horarios-y-tarifas/",
+          "label": "Transmarchilay · Pargua–Chacao",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Horarios y Tarifas",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "c46ea13c887321b6f6e41c647d3df2f463156022afde8664cb6c26bd03a103a5"
+        }
+      ]
+    },
+    {
+      "id": "arena-puelche",
+      "name": "La Arena–Puelche",
+      "operator": "Transportes del Estuario / Naviera Puelche",
+      "vehicles": true,
+      "routes": [
+        "austral"
+      ],
+      "terminals": [
+        {
+          "name": "Rampa Caleta La Arena",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Caleta%20La%20Arena%20Chile"
+        },
+        {
+          "name": "Rampa Caleta Puelche",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Caleta%20Puelche%20Chile"
+        }
+      ],
+      "booking": "https://navierapuelche.cl/rutas/",
+      "duration": "Consultar duración y espera",
+      "bookingNote": "Verificar modalidad de embarque y estado del cruce; conexión de la Ruta 7.",
+      "schedule": "La página oficial deriva al operador del cruce. Consultar frecuencia y operación del día.",
+      "fare": "Consultar la tarifa vigente del vehículo en el enlace del operador.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-arena-puelche",
+          "url": "https://navierapuelche.cl/rutas/",
+          "label": "Transportes del Estuario / Naviera Puelche · La Arena–Puelche",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Rutas",
+          "titleSelector": "title",
+          "contentSelector": ".et_pb_map_0",
+          "reviewedHash": "971fec6114b063ec8d30f8c2131883b0bb8582f4cefcc9025aec9f56e5f0beef"
+        }
+      ]
+    },
+    {
+      "id": "bimodal",
+      "name": "Hornopirén–Caleta Gonzalo",
+      "operator": "Somarco",
+      "vehicles": true,
+      "routes": [
+        "austral"
+      ],
+      "terminals": [
+        {
+          "name": "Terminal Hornopirén Somarco",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Terminal%20Hornopir%C3%A9n%20Somarco%20Chile"
+        },
+        {
+          "name": "Rampa Caleta Gonzalo",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Caleta%20Gonzalo%20Chile"
+        }
+      ],
+      "booking": "https://www.barcazas.cl/barcazas/hornopiren-caleta-gonzalo/",
+      "duration": "Incluye navegaciones y tramo terrestre",
+      "bookingNote": "Reservar vehículo y pasajeros para la fecha y el sentido correctos. Revisar hora de presentación y tramos incluidos.",
+      "schedule": "La página mezcla temporadas y avisos contradictorios. No se reproduce un horario como vigente: confirmar en el sistema de reservas.",
+      "fare": "Consultar tarifa por modalidad de viaje, vehículo y pasajeros.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-bimodal",
+          "url": "https://www.barcazas.cl/barcazas/hornopiren-caleta-gonzalo/",
+          "label": "Somarco · Hornopirén–Caleta Gonzalo",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Hornopirén",
+          "titleSelector": "title",
+          "contentSelector": "body"
+        }
+      ],
+      "legs": [
+        "Navegación Hornopirén → Leptepú.",
+        "Conducción Leptepú → Fiordo Largo.",
+        "Navegación Fiordo Largo → Caleta Gonzalo."
+      ]
+    },
+    {
+      "id": "quellon-chaiten",
+      "name": "Quellón–Chaitén",
+      "operator": "Naviera Austral",
+      "vehicles": true,
+      "routes": [
+        "main",
+        "austral"
+      ],
+      "terminals": [
+        {
+          "name": "Muelle Fiscal Quellón",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Muelle%20Fiscal%20Quell%C3%B3n%20Chile"
+        },
+        {
+          "name": "Rampa Chaitén",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Chait%C3%A9n%20Chile"
+        }
+      ],
+      "booking": "https://www.navieraustral.cl/quellon-chaiten/",
+      "duration": "4 h 30 min publicadas",
+      "bookingNote": "El operador solicita presentación dos horas antes. Reservar por separado vehículo y pasajeros según corresponda.",
+      "schedule": "Itinerario identificado como junio de 2026: vencido para este viaje. Consultar nuevas fechas y ambos sentidos.",
+      "fare": "Referencia publicada: vehículo menor general desde $162.800; pasajero desde $33.000. No es una cotización final; confirmar tasas y condiciones.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-quellon-chaiten",
+          "url": "https://www.navieraustral.cl/quellon-chaiten/",
+          "label": "Naviera Austral · Quellón–Chaitén",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Quellón",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "47ac7aca85bac988ea10cc3d37fe4e1cccb7e250cabe5219322d8b652c025f40"
+        }
+      ],
+      "validUntil": "2026-06-30T23:59:59-04:00"
+    },
+    {
+      "id": "montt-chaiten",
+      "name": "Puerto Montt–Chaitén",
+      "operator": "Naviera Austral",
+      "vehicles": true,
+      "routes": [
+        "austral"
+      ],
+      "terminals": [
+        {
+          "name": "Terminal de Transbordadores Puerto Montt",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Terminal%20de%20Transbordadores%20Puerto%20Montt%20Chile"
+        },
+        {
+          "name": "Rampa Chaitén",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Chait%C3%A9n%20Chile"
+        }
+      ],
+      "booking": "https://www.navieraustral.cl/puertomontt-chaiten/",
+      "duration": "Consultar duración por salida",
+      "bookingNote": "Alternativa marítima a la Ruta 7. Confirmar terminal exacto, reserva y hora de presentación.",
+      "schedule": "Consultar fechas, sentido y puerto de salida en el sistema del operador.",
+      "fare": "Consultar la tarifa de tu vehículo y cada pasajero; revisar tasas de embarque.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-montt-chaiten",
+          "url": "https://www.navieraustral.cl/puertomontt-chaiten/",
+          "label": "Naviera Austral · Puerto Montt–Chaitén",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Puerto Montt",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "168c6a6d18f0a7f1dc47e224ec25e7ec4278745a4c83a8e12931b2394389ce42"
+        }
+      ]
+    },
+    {
+      "id": "dalcahue",
+      "name": "Canal Dalcahue · El Pasaje–Coyumbe",
+      "operator": "Transportes Puelche",
+      "vehicles": true,
+      "routes": [
+        "main"
+      ],
+      "terminals": [
+        {
+          "name": "Rampa El Pasaje Dalcahue",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20El%20Pasaje%20Dalcahue%20Chile"
+        },
+        {
+          "name": "Rampa Coyumbe Curaco de Vélez",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Coyumbe%20Curaco%20de%20V%C3%A9lez%20Chile"
+        }
+      ],
+      "booking": "https://transportespuelche.cl/canal-dalcahue/",
+      "duration": "10 min publicados",
+      "bookingNote": "Consultar embarque y operación del día; cruce a la isla de Quinchao.",
+      "schedule": "El operador publica servicio continuo de 24 horas y frecuencia aproximada de diez minutos, sujeto a condiciones.",
+      "fare": "Auto: $3.500; pasajeros gratis. Tarifa publicada desde enero de 2026; confirmar categorías especiales.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-dalcahue",
+          "url": "https://transportespuelche.cl/canal-dalcahue/",
+          "label": "Transportes Puelche · Canal Dalcahue · El Pasaje–Coyumbe",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Canal Dalcahue",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "f4939a42e1f73e988fae3aed659fadbfdc73af89609fee8aed39890704dcfc10"
+        }
+      ]
+    },
+    {
+      "id": "yal",
+      "name": "Canal Yal · Huicha–Chulchuy",
+      "operator": "Transportes Puelche",
+      "vehicles": true,
+      "routes": [
+        "main"
+      ],
+      "terminals": [
+        {
+          "name": "Rampa Huicha Chonchi",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Huicha%20Chonchi%20Chile"
+        },
+        {
+          "name": "Rampa Chulchuy Lemuy",
+          "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rampa%20Chulchuy%20Lemuy%20Chile"
+        }
+      ],
+      "booking": "https://transportespuelche.cl/chulchuy-huicha/",
+      "duration": "Consultar duración y espera",
+      "bookingNote": "Cruce a isla Lemuy. Comprobar horario por sentido y longitud del vehículo.",
+      "schedule": "La tabla incluye temporada baja desde marzo de 2025. Confirmar horarios nocturnos y por nave para la fecha del viaje.",
+      "fare": "Autos, camionetas y furgones hasta 5,5 m: $2.950; pasajeros gratis. Publicada desde marzo de 2026.",
+      "observedAt": "2026-09-12T20:14:42.573450Z",
+      "sources": [
+        {
+          "id": "ferry-yal",
+          "url": "https://transportespuelche.cl/chulchuy-huicha/",
+          "label": "Transportes Puelche · Canal Yal · Huicha–Chulchuy",
+          "adapter": "operator",
+          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "expectedTitle": "Canal Yal",
+          "titleSelector": "title",
+          "contentSelector": "body",
+          "reviewedHash": "29088b305621a077cecc2c15517a2fc6455a88a118843bee3681f34c2eeb12a6"
+        }
+      ]
+    }
+  ]
+}

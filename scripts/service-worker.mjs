@@ -8,7 +8,7 @@ async function files(dir,prefix=''){
     else if(file.name!=='sw.js')result.push(prefix+file.name);
   }return result;
 }
-const assets=await files(dist);const hash=createHash('sha256');
+const assets=(await files(dist)).filter(p=>p!=='data/catalog.json'&&p!=='data/state.json');const hash=createHash('sha256');
 for(const file of assets)hash.update(await readFile(new URL(file,dist)));
 const version=hash.digest('hex').slice(0,16);
 const script=`const CACHE='ruta-sur-${version}';
@@ -21,8 +21,8 @@ self.addEventListener('fetch',event=>{
  const url=new URL(event.request.url);
  if(event.request.method!=='GET'||url.origin!==BASE.origin||!url.pathname.startsWith(BASE.pathname))return;
  // External map tiles are never prefetched or handled by this service worker.
- if(url.pathname.includes('/data/')){
-  event.respondWith((async()=>{const cache=await caches.open(CACHE);if(!self.navigator.onLine){const saved=await cache.match(event.request);if(saved)return saved;}try{const response=await fetch(event.request,{signal:AbortSignal.timeout(7000)});if(!response.ok)throw new Error('HTTP error');const data=await response.clone().json();if(data.schemaVersion!==1)throw new Error('Invalid data');await cache.put(event.request,response.clone());return response;}catch{const saved=await cache.match(event.request);return saved||new Response('Offline',{status:503});}})());return;
+ if(url.pathname.includes('/data/v2/')){
+  event.respondWith((async()=>{const cache=await caches.open(CACHE);if(!self.navigator.onLine){const saved=await cache.match(event.request);if(saved)return saved;}try{const response=await fetch(event.request,{signal:AbortSignal.timeout(7000),cache:'no-cache'});if(!response.ok)throw new Error('HTTP error');const data=await response.clone().json();if(data.schemaVersion!==2)throw new Error('Invalid data');await cache.put(event.request,response.clone());return response;}catch{const saved=await cache.match(event.request);if(!saved)return new Response('Offline',{status:503});const headers=new Headers(saved.headers);headers.set('X-Ruta-Sur-Cache','offline');return new Response(await saved.arrayBuffer(),{status:200,headers});}})());return;
  }
  event.respondWith((async()=>{const cache=await caches.open(CACHE);const saved=await cache.match(event.request);if(saved)return saved;try{return await fetch(event.request);}catch{return event.request.mode==='navigate'?(await cache.match(new URL('index.html',BASE).href)||Response.error()):Response.error();}})());
 });`;
