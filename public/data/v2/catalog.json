@@ -2388,13 +2388,12 @@
         {
           "id": "cementerio-general-tours",
           "url": "https://cementeriogeneral.cl/preguntas-frecuentes-4/",
-          "label": "Cementerio General · Visitas y tours",
-          "adapter": "operator",
-          "checkedAt": "2026-09-12T20:14:42.573450Z",
+          "label": "Cementerio General · Visitas y tours (consulta manual)",
+          "adapter": "reference",
+          "checkedAt": "2026-09-12T20:15:02.094Z",
           "expectedTitle": "Preguntas Frecuentes",
           "titleSelector": "title",
-          "contentSelector": "body",
-          "reviewedHash": "d6d3911d5a40baa38eeeb62076111cdf412c4a2b8a7ddecdb2cbe3e0080d5389"
+          "contentSelector": "body"
         }
       ],
       "statusSourceIds": [],

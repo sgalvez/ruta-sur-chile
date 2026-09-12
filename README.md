@@ -46,13 +46,13 @@ npm run validate
 npm run build
 ```
 
-Los adaptadores verifican el título y el formato antes de aceptar la respuesta; una página de error con HTTP 200 no cuenta como consulta válida. Se consultan 44 fuentes con pausa entre solicitudes y tiempo límite. Una ejecución parcialmente fallida no renueva la fecha global de revisión satisfactoria; las fechas individuales permiten distinguir cuáles funcionaron. Pasadas 48 horas, la app indica revisión pendiente.
+Los adaptadores verifican el título y el formato antes de aceptar la respuesta; una página de error con HTTP 200 no cuenta como consulta válida. Se consultan 43 fuentes con pausa entre solicitudes y tiempo límite. Una ejecución parcialmente fallida no renueva la fecha global de revisión satisfactoria; las fechas individuales permiten distinguir cuáles funcionaron. Pasadas 48 horas, la app indica revisión pendiente.
 
 El botón **Actualizar información** descarga la última publicación; no ejecuta scraping desde el teléfono ni inicia Actions. Distingue información nueva, datos sin cambios y descarga fallida. Las consultas automáticas se ejecutan diariamente, conservando selección, favoritos y ficha abierta al actualizar.
 
 Vialidad se consulta por la capa pública 0 de `VIALIDAD/Emergencias_Vialidad/MapServer`. Se obtienen primero los identificadores de las regiones 13, 06, 07, 16, 08, 09, 14 y 10, y luego lotes de 100 registros, proyectados a WGS84. Si falta un lote se conserva toda la respuesta previa. Conflictos entre `TRANSITO` y `SIMBOLOGIA` quedan por confirmar. El servicio cubre emergencias de competencia del MOP; ausencia de avisos no certifica caminos abiertos.
 
-Los horarios de ferries son referencias editoriales fechadas, no disponibilidad en vivo. Quellón–Chaitén publica un itinerario de junio de 2026 y se muestra vencido; Somarco mezcla textos contradictorios y bloquea consultas automáticas, por lo que queda como referencia manual con enlace a reservas. Cambios de tarifas o páginas generan una indicación para volver a comprobar con el operador.
+Los horarios de ferries son referencias editoriales fechadas, no disponibilidad en vivo. Quellón–Chaitén publica un itinerario de junio de 2026 y se muestra vencido; Somarco mezcla textos contradictorios y bloquea consultas automáticas, por lo que queda como referencia manual con enlace a reservas. El Cementerio General responde localmente pero bloquea al ejecutor de GitHub (HTTP 403), por lo que su ficha también conserva una referencia manual al sitio oficial. Cambios de tarifas o páginas generan una indicación para volver a comprobar con el operador.
 
 Los avisos fechados y explícitos permiten identificar algunos cierres y accesos parciales. Horarios genéricos, venta de entradas, una reapertura futura y avisos ambiguos no confirman apertura. Los cambios se comparan con `reviewedHash`: la advertencia persiste hasta que se revisan los datos editoriales. No hay clasificación automática libre de texto mediante IA.
 

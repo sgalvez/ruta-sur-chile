@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "attemptedAt": "2026-09-12T20:23:44.598Z",
-  "lastSuccessfulAt": "2026-09-12T20:15:02.094Z",
+  "lastSuccessfulAt": "2026-09-12T20:23:44.598Z",
   "observations": {
     "conaf-reserva-nacional-rio-de-los-cipreses": {
       "sourceId": "conaf-reserva-nacional-rio-de-los-cipreses",
@@ -362,19 +362,6 @@
       "status": "unknown",
       "evidenceAt": null,
       "validUntil": null
-    },
-    "cementerio-general-tours": {
-      "sourceId": "cementerio-general-tours",
-      "checkedAt": "2026-09-12T20:15:02.094Z",
-      "attemptedAt": "2026-09-12T20:23:44.598Z",
-      "ok": false,
-      "hash": "d6d3911d5a40baa38eeeb62076111cdf412c4a2b8a7ddecdb2cbe3e0080d5389",
-      "changed": false,
-      "notice": "…  educativos y organizaciones. 08 ¿Puedo solicitar un tour o ruta cerrada para mi grupo? Sí, es posible gestionar recorridos cerrados, tanto diurnos como …",
-      "status": "unknown",
-      "evidenceAt": null,
-      "validUntil": null,
-      "error": "HTTP 403"
     },
     "conaf-monumento-natural-cerro-nielol": {
       "sourceId": "conaf-monumento-natural-cerro-nielol",
