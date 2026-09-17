@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "attemptedAt": "2026-09-16T14:14:02.759Z",
-  "checkedAt": "2026-09-16T14:14:02.759Z",
+  "attemptedAt": "2026-09-17T14:19:42.135Z",
+  "checkedAt": "2026-09-17T14:19:42.135Z",
   "ok": true,
   "sourceUrl": "https://rest-sit.mop.gob.cl/arcgis/rest/services/VIALIDAD/Emergencias_Vialidad/MapServer/0",
   "notices": [
@@ -342,22 +342,6 @@
       ]
     },
     {
-      "id": "56637",
-      "region": "Biobío",
-      "road": "O-670",
-      "name": "Cruce Ruta 146 (Copiulemu) - Cruce O-680 (El Águila)",
-      "restriction": "Sólo Vehículos Doble Tracción",
-      "summary": "Camino O-670 Barro sobre calzada",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / Operativo",
-      "evidenceAt": "2026-08-01T18:00:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -36.94716453009332,
-        -72.92381268299994
-      ]
-    },
-    {
       "id": "56641",
       "region": "Maule",
       "road": "S/R-K-276",
@@ -371,22 +355,6 @@
       "coordinates": [
         -35.21121489011073,
         -72.27006407999994
-      ]
-    },
-    {
-      "id": "56651",
-      "region": "Ñuble",
-      "road": "N-520",
-      "name": "Cruce N-50 (Lajuelas) - Huampuli - Cruce N-530 (Tres Esquinas)",
-      "restriction": "Velocidad Restringida",
-      "summary": "PUENTE HUAMPULI - socavación",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-08-26T15:14:23.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -36.5001610880975,
-        -72.32206919499998
       ]
     },
     {
@@ -502,22 +470,6 @@
       ]
     },
     {
-      "id": "56708",
-      "region": "Metropolitana",
-      "road": "G-86-F",
-      "name": "Casablanca - Tapihue - El Pangue - Curacaví, Sector: Límite Regional - Curacaví (Av. Ambrosio O'Higgins)",
-      "restriction": "Velocidad Restringida",
-      "summary": "Deslizamiento de material - Caidas de arboles",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-07-17T11:15:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -33.29263722513382,
-        -71.11734969699995
-      ]
-    },
-    {
       "id": "56713",
       "region": "Metropolitana",
       "road": "G-16",
@@ -531,6 +483,22 @@
       "coordinates": [
         -33.29267405013381,
         -70.86721964899994
+      ]
+    },
+    {
+      "id": "56718",
+      "region": "Ñuble",
+      "road": "N-692",
+      "name": "Cruce N-62 (Altos de Colliguay) - Quinchamalí - Ex Balsa de Nueva Aldea",
+      "restriction": "",
+      "summary": "Socavación",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-08-07T09:21:36.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -36.65624832109601,
+        -72.44262588299995
       ]
     },
     {
@@ -688,6 +656,22 @@
       "coordinates": [
         -37.776498492086176,
         -73.17582458899994
+      ]
+    },
+    {
+      "id": "56820",
+      "region": "Ñuble",
+      "road": "N-62",
+      "name": "Cruce Ruta 5 (Chillán) - Puente Confluencia - Membrillar - Cruce N-620 (Portezuelo)",
+      "restriction": "",
+      "summary": "Baches en la ruta",
+      "status": "open",
+      "reportedStatus": "Operativo",
+      "evidenceAt": "2026-08-03T00:00:00.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -36.61018837709646,
+        -72.21904703699994
       ]
     },
     {
@@ -963,6 +947,22 @@
       ]
     },
     {
+      "id": "57086",
+      "region": "Metropolitana",
+      "road": "G-10-F",
+      "name": "Til Til - Cuesta La Dormida - Limache, Sector: Til Til - Límite Regional (Cuesta La Dormida)",
+      "restriction": "",
+      "summary": "Desprendimiento de material en la ruta",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-16T20:00:00.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -33.067781706136756,
+        -70.98501336999993
+      ]
+    },
+    {
       "id": "57093",
       "region": "Los Ríos",
       "road": "T-317",
@@ -1155,6 +1155,22 @@
       ]
     },
     {
+      "id": "57214",
+      "region": "Metropolitana",
+      "road": "G-298",
+      "name": "Lo Ermita",
+      "restriction": "",
+      "summary": "ANEGAMIENTO",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-20T07:00:00.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -33.587305714130025,
+        -70.76796500199998
+      ]
+    },
+    {
       "id": "57218",
       "region": "La Araucanía",
       "road": "S-234",
@@ -1264,22 +1280,6 @@
       "coordinates": [
         -35.83077262810416,
         -70.96907461199999
-      ]
-    },
-    {
-      "id": "57285",
-      "region": "La Araucanía",
-      "road": "sin rol 0375",
-      "name": "Metrenco - Huillinco",
-      "restriction": "Velocidad Restringida",
-      "summary": "anegamiento de la calzada",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-07-31T13:00:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -38.82992613607821,
-        -72.61956201599997
       ]
     },
     {
@@ -1731,6 +1731,22 @@
       ]
     },
     {
+      "id": "56637",
+      "region": "Biobío",
+      "road": "O-670",
+      "name": "Cruce Ruta 146 (Copiulemu) - Cruce O-680 (El Águila)",
+      "restriction": "Sólo Vehículos Doble Tracción",
+      "summary": "Camino O-670 Barro sobre calzada",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / Operativo",
+      "evidenceAt": "2026-08-01T18:00:00.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -36.94716453009332,
+        -72.92381268299994
+      ]
+    },
+    {
       "id": "56640",
       "region": "Maule",
       "road": "M-862",
@@ -1744,6 +1760,22 @@
       "coordinates": [
         -36.035998053102055,
         -72.44899849199999
+      ]
+    },
+    {
+      "id": "56651",
+      "region": "Ñuble",
+      "road": "N-520",
+      "name": "Cruce N-50 (Lajuelas) - Huampuli - Cruce N-530 (Tres Esquinas)",
+      "restriction": "Velocidad Restringida",
+      "summary": "PUENTE HUAMPULI - socavación",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-08-26T15:14:23.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -36.5001610880975,
+        -72.32206919499998
       ]
     },
     {
@@ -1811,19 +1843,19 @@
       ]
     },
     {
-      "id": "56718",
-      "region": "Ñuble",
-      "road": "N-692",
-      "name": "Cruce N-62 (Altos de Colliguay) - Quinchamalí - Ex Balsa de Nueva Aldea",
-      "restriction": "",
-      "summary": "Socavación",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-08-07T09:21:36.000Z",
+      "id": "56708",
+      "region": "Metropolitana",
+      "road": "G-86-F",
+      "name": "Casablanca - Tapihue - El Pangue - Curacaví, Sector: Límite Regional - Curacaví (Av. Ambrosio O'Higgins)",
+      "restriction": "Velocidad Restringida",
+      "summary": "Deslizamiento de material - Caidas de arboles",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-07-17T11:15:00.000Z",
       "updatedAt": "2026-09-16T13:16:21.000Z",
       "coordinates": [
-        -36.65624832109601,
-        -72.44262588299995
+        -33.29263722513382,
+        -71.11734969699995
       ]
     },
     {
@@ -1840,22 +1872,6 @@
       "coordinates": [
         -37.75564392208635,
         -71.21821105399994
-      ]
-    },
-    {
-      "id": "56820",
-      "region": "Ñuble",
-      "road": "N-62",
-      "name": "Cruce Ruta 5 (Chillán) - Puente Confluencia - Membrillar - Cruce N-620 (Portezuelo)",
-      "restriction": "",
-      "summary": "Baches en la ruta",
-      "status": "open",
-      "reportedStatus": "Operativo",
-      "evidenceAt": "2026-08-03T00:00:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -36.61018837709646,
-        -72.21904703699994
       ]
     },
     {
@@ -2035,22 +2051,6 @@
       ]
     },
     {
-      "id": "57086",
-      "region": "Metropolitana",
-      "road": "G-10-F",
-      "name": "Til Til - Cuesta La Dormida - Limache, Sector: Til Til - Límite Regional (Cuesta La Dormida)",
-      "restriction": "",
-      "summary": "Desprendimiento de material en la ruta",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-16T20:00:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -33.067781706136756,
-        -70.98501336999993
-      ]
-    },
-    {
       "id": "57096",
       "region": "Biobío",
       "road": "P-72-S",
@@ -2131,22 +2131,6 @@
       ]
     },
     {
-      "id": "57214",
-      "region": "Metropolitana",
-      "road": "G-298",
-      "name": "Lo Ermita",
-      "restriction": "",
-      "summary": "ANEGAMIENTO",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-20T07:00:00.000Z",
-      "updatedAt": "2026-09-16T13:16:21.000Z",
-      "coordinates": [
-        -33.587305714130025,
-        -70.76796500199998
-      ]
-    },
-    {
       "id": "57228",
       "region": "Maule",
       "road": "Ruta 115 CH",
@@ -2224,6 +2208,22 @@
       "coordinates": [
         -36.00694332010234,
         -70.47772056999997
+      ]
+    },
+    {
+      "id": "57285",
+      "region": "La Araucanía",
+      "road": "sin rol 0375",
+      "name": "Metrenco - Huillinco",
+      "restriction": "Velocidad Restringida",
+      "summary": "anegamiento de la calzada",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-07-31T13:00:00.000Z",
+      "updatedAt": "2026-09-16T13:16:21.000Z",
+      "coordinates": [
+        -38.82992613607821,
+        -72.61956201599997
       ]
     },
     {
