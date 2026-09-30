@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "attemptedAt": "2026-09-29T15:57:27.683Z",
-  "checkedAt": "2026-09-29T15:57:27.683Z",
+  "attemptedAt": "2026-09-30T15:57:27.046Z",
+  "checkedAt": "2026-09-30T15:57:27.046Z",
   "ok": true,
   "sourceUrl": "https://rest-sit.mop.gob.cl/arcgis/rest/services/VIALIDAD/Emergencias_Vialidad/MapServer/0",
   "notices": [
@@ -182,22 +182,6 @@
       ]
     },
     {
-      "id": "57706",
-      "region": "Metropolitana",
-      "road": "G-121",
-      "name": "Los Talaveras",
-      "restriction": "",
-      "summary": "Corte baden de tierra, estero Chacabuco",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-17T09:15:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -33.05439783013695,
-        -70.71348103799994
-      ]
-    },
-    {
       "id": "57722",
       "region": "Metropolitana",
       "road": "G-680",
@@ -211,6 +195,22 @@
       "coordinates": [
         -34.00767988812478,
         -71.22174938699999
+      ]
+    },
+    {
+      "id": "57727",
+      "region": "Biobío",
+      "road": "Q-61",
+      "name": "Cruce Ruta 177 (Los Ángeles) - Santa Bárbara - Ralco - Guallalí - Río Chaquilvín",
+      "restriction": "Velocidad Restringida",
+      "summary": "Camino Q-61 Desprendimiento de rocas",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / Operativo",
+      "evidenceAt": "2026-07-27T07:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -37.83117032408573,
+        -71.67808398599993
       ]
     },
     {
@@ -406,22 +406,6 @@
       ]
     },
     {
-      "id": "57846",
-      "region": "Biobío",
-      "road": "O-670",
-      "name": "Cruce Ruta 146 (Copiulemu) - Cruce O-680 (El Águila)",
-      "restriction": "Sólo Vehículos Doble Tracción",
-      "summary": "Camino O-670 Barro sobre calzada",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / Operativo",
-      "evidenceAt": "2026-08-01T18:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -36.94716453009332,
-        -72.92381268299994
-      ]
-    },
-    {
       "id": "57852",
       "region": "Biobío",
       "road": "P-510",
@@ -534,22 +518,6 @@
       ]
     },
     {
-      "id": "57903",
-      "region": "Los Ríos",
-      "road": "T-192",
-      "name": "Cruce T-210 - Ringán - Cruce T-120-S (Tripayante Centro)",
-      "restriction": "",
-      "summary": "remoción en masa de un talud adyacente al cauce, con arrastre y acumulación de material leñoso",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-09-25T10:44:29.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -39.373223782074554,
-        -72.91903908499995
-      ]
-    },
-    {
       "id": "57921",
       "region": "Biobío",
       "road": "Q-705",
@@ -566,19 +534,19 @@
       ]
     },
     {
-      "id": "57929",
-      "region": "Los Ríos",
-      "road": "T-350",
-      "name": "Cruce Calle Los Robles (Valdivia) - Niebla - Los Molinos - Curiñanco",
+      "id": "57924",
+      "region": "Metropolitana",
+      "road": "G-16",
+      "name": "Rungue - Lo Echevers",
       "restriction": "",
-      "summary": "Deslizamiento de Talud",
-      "status": "open",
-      "reportedStatus": "Operativo",
-      "evidenceAt": "2026-08-24T08:59:26.000Z",
+      "summary": "Aluvion",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-17T10:00:00.000Z",
       "updatedAt": "2026-09-28T12:50:37.000Z",
       "coordinates": [
-        -39.817359784071826,
-        -73.39932787299995
+        -33.2104265121349,
+        -70.91709312199998
       ]
     },
     {
@@ -662,6 +630,22 @@
       ]
     },
     {
+      "id": "57993",
+      "region": "Metropolitana",
+      "road": "G-251",
+      "name": "Farellones - Valle Nevado",
+      "restriction": "",
+      "summary": "CIERRE DE RUTA POR NIEVE",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-17T08:15:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -33.36300384513292,
+        -70.26552628899998
+      ]
+    },
+    {
       "id": "58004",
       "region": "Biobío",
       "road": "P-562",
@@ -678,22 +662,6 @@
       ]
     },
     {
-      "id": "58005",
-      "region": "La Araucanía",
-      "road": "S-806",
-      "name": "LOS PINOS - SANTA ROSA - PAILACURA",
-      "restriction": "Velocidad Restringida",
-      "summary": "Erosión en bermas",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-07-31T13:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -38.67710055807925,
-        -72.77716087299996
-      ]
-    },
-    {
       "id": "58030",
       "region": "Biobío",
       "road": "S/R-Q-472",
@@ -707,6 +675,22 @@
       "coordinates": [
         -37.53640573808817,
         -72.70535676599997
+      ]
+    },
+    {
+      "id": "58076",
+      "region": "Maule",
+      "road": "S/R-K-454",
+      "name": "Cruce Calle Centinela (Puente Cardenal Raúl Silva Henriquez) - Piedra el Lobo",
+      "restriction": "Velocidad Restringida",
+      "summary": "Socavon en camino Piedra del Lobo km 2,5",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / No Operativo",
+      "evidenceAt": "2026-07-23T14:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -35.360897941109116,
+        -72.38389174599996
       ]
     },
     {
@@ -886,6 +870,22 @@
       ]
     },
     {
+      "id": "58178",
+      "region": "Biobío",
+      "road": "P-72-S",
+      "name": "Cruce P-60-R (Peleco) - Tirúa - Tranapuente - Cruce S-40, Sector: Peleco - Límite Regional",
+      "restriction": "Velocidad Restringida",
+      "summary": "Camino P-72-S Derrumbe",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-08-01T18:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -38.25072679808241,
+        -73.49783841999994
+      ]
+    },
+    {
       "id": "58180",
       "region": "Ñuble",
       "road": "N-62",
@@ -931,22 +931,6 @@
       "coordinates": [
         -37.202682961091064,
         -73.55303775799996
-      ]
-    },
-    {
-      "id": "58214",
-      "region": "Maule",
-      "road": "M-870",
-      "name": "Cruce Ruta 126 S (Las Tunas) - Cruce M-80-N (Tregualemu)",
-      "restriction": "",
-      "summary": "Desplazamiento de material que produce socavón en la faja izquierda.",
-      "status": "open",
-      "reportedStatus": "Operativo",
-      "evidenceAt": "2026-09-02T12:15:02.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -35.97665398510268,
-        -72.72901709499996
       ]
     },
     {
@@ -1094,6 +1078,22 @@
       ]
     },
     {
+      "id": "58304",
+      "region": "Biobío",
+      "road": "P-404",
+      "name": "Curanilahue (Puente Dos) - Cruce P-424 (Plegarias)",
+      "restriction": "Velocidad Restringida",
+      "summary": "Camino P-404 Derrumbe moderado",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-08-07T15:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -37.51385210208837,
+        -73.34571968399996
+      ]
+    },
+    {
       "id": "58315",
       "region": "Maule",
       "road": "Ruta 115 CH",
@@ -1139,6 +1139,22 @@
       "coordinates": [
         -33.70042512912856,
         -70.33409168499998
+      ]
+    },
+    {
+      "id": "58361",
+      "region": "La Araucanía",
+      "road": "S-965",
+      "name": "CURARREHUE - REIGOLIL",
+      "restriction": "",
+      "summary": "deslizamiento de tierra a la calzada",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-09-23T17:30:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -39.26467340207525,
+        -71.43483044899995
       ]
     },
     {
@@ -1222,6 +1238,22 @@
       ]
     },
     {
+      "id": "58413",
+      "region": "Ñuble",
+      "road": "S/R-N-317",
+      "name": "Cruce N-31 (Cachapoal) - Quihua Alto - Río Ñuble",
+      "restriction": "",
+      "summary": "inundación",
+      "status": "open",
+      "reportedStatus": "Operativo",
+      "evidenceAt": "2026-07-15T00:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -36.48180017409764,
+        -71.69257709599998
+      ]
+    },
+    {
       "id": "58417",
       "region": "Biobío",
       "road": "Q-634",
@@ -1286,6 +1318,22 @@
       ]
     },
     {
+      "id": "58470",
+      "region": "La Araucanía",
+      "road": "S/Rol",
+      "name": "Mallín del Treile - Rinconada - El Naranjo",
+      "restriction": "",
+      "summary": "GRIETA EN CAMINO CON DESLIZAMIENTO DE TERRAPLEN",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-15T14:15:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -38.423202085081115,
+        -71.39839651899996
+      ]
+    },
+    {
       "id": "58476",
       "region": "Maule",
       "road": "M-80-N",
@@ -1299,22 +1347,6 @@
       "coordinates": [
         -35.90046541510346,
         -72.68178845999995
-      ]
-    },
-    {
-      "id": "58480",
-      "region": "La Araucanía",
-      "road": "S-234",
-      "name": "GALVARINO - CHOL CHOL POR AILLINCO",
-      "restriction": "Sólo Vehículos Livianos",
-      "summary": "Remoción en masa",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-08-04T14:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -38.41444967608116,
-        -72.79107811999995
       ]
     },
     {
@@ -1347,22 +1379,6 @@
       "coordinates": [
         -36.69703166409562,
         -71.73378455099999
-      ]
-    },
-    {
-      "id": "58513",
-      "region": "Biobío",
-      "road": "S/R-Q-699",
-      "name": "Cruce Q-61 (Ralco) - Trapa Trapa - Chanchoco",
-      "restriction": "Velocidad Restringida",
-      "summary": "Camino S/R-Q-699 Remoción en masa",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / Operativo",
-      "evidenceAt": "2026-08-02T22:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -37.6970768890868,
-        -71.28773177199997
       ]
     },
     {
@@ -1427,22 +1443,6 @@
       "coordinates": [
         -37.776498492086176,
         -73.17582458899994
-      ]
-    },
-    {
-      "id": "58537",
-      "region": "Biobío",
-      "road": "Q-650",
-      "name": "Cruce Ruta 5 (Paso superior Licura) - Munilque - Cruce Q-80 (Negrete)",
-      "restriction": "Sólo Vehículos Doble Tracción",
-      "summary": "Camino Q-650 interrumpido por Crecida río Bureo",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / Operativo",
-      "evidenceAt": "2026-08-01T13:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -37.63680580808732,
-        -72.33407737999994
       ]
     },
     {
@@ -1526,6 +1526,22 @@
       ]
     },
     {
+      "id": "58584",
+      "region": "Biobío",
+      "road": "S/R-Q-181",
+      "name": "Cruce Q-105 (Estero Patahuecó) - Cruce Q-115 (Monte Las Diucas)",
+      "restriction": "Velocidad Restringida",
+      "summary": "S/R-Q-181  inundación del camino producto de aguas provenientes de predios colindantes",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-07-18T15:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -37.29912289309016,
+        -72.27023199499996
+      ]
+    },
+    {
       "id": "58589",
       "region": "Maule",
       "road": "L-751",
@@ -1587,22 +1603,6 @@
       "coordinates": [
         -37.45020967508887,
         -72.75684279299998
-      ]
-    },
-    {
-      "id": "58594",
-      "region": "Biobío",
-      "road": "O-242",
-      "name": "Cruce O-14-N (El Mirador) - Cruce O-250 (Menque)",
-      "restriction": "Sólo Vehículos Doble Tracción",
-      "summary": "Camino O-242 Derrumbe y socavación mayor",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-08-01T17:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -36.55219011609699,
-        -72.86462765299996
       ]
     },
     {
@@ -1750,19 +1750,19 @@
       ]
     },
     {
-      "id": "57727",
-      "region": "Biobío",
-      "road": "Q-61",
-      "name": "Cruce Ruta 177 (Los Ángeles) - Santa Bárbara - Ralco - Guallalí - Río Chaquilvín",
-      "restriction": "Velocidad Restringida",
-      "summary": "Camino Q-61 Desprendimiento de rocas",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / Operativo",
-      "evidenceAt": "2026-07-27T07:00:00.000Z",
+      "id": "57706",
+      "region": "Metropolitana",
+      "road": "G-121",
+      "name": "Los Talaveras",
+      "restriction": "",
+      "summary": "Corte baden de tierra, estero Chacabuco",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-07-17T09:15:00.000Z",
       "updatedAt": "2026-09-28T12:50:37.000Z",
       "coordinates": [
-        -37.83117032408573,
-        -71.67808398599993
+        -33.05439783013695,
+        -70.71348103799994
       ]
     },
     {
@@ -1846,6 +1846,22 @@
       ]
     },
     {
+      "id": "57846",
+      "region": "Biobío",
+      "road": "O-670",
+      "name": "Cruce Ruta 146 (Copiulemu) - Cruce O-680 (El Águila)",
+      "restriction": "Sólo Vehículos Doble Tracción",
+      "summary": "Camino O-670 Barro sobre calzada",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / Operativo",
+      "evidenceAt": "2026-08-01T18:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -36.94716453009332,
+        -72.92381268299994
+      ]
+    },
+    {
       "id": "57856",
       "region": "Metropolitana",
       "road": "G-21",
@@ -1894,6 +1910,22 @@
       ]
     },
     {
+      "id": "57903",
+      "region": "Los Ríos",
+      "road": "T-192",
+      "name": "Cruce T-210 - Ringán - Cruce T-120-S (Tripayante Centro)",
+      "restriction": "",
+      "summary": "remoción en masa de un talud adyacente al cauce, con arrastre y acumulación de material leñoso",
+      "status": "closed",
+      "reportedStatus": "No Operativo",
+      "evidenceAt": "2026-09-25T10:44:29.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -39.373223782074554,
+        -72.91903908499995
+      ]
+    },
+    {
       "id": "57917",
       "region": "Ñuble",
       "road": "N-620",
@@ -1926,19 +1958,19 @@
       ]
     },
     {
-      "id": "57924",
-      "region": "Metropolitana",
-      "road": "G-16",
-      "name": "Rungue - Lo Echevers",
+      "id": "57929",
+      "region": "Los Ríos",
+      "road": "T-350",
+      "name": "Cruce Calle Los Robles (Valdivia) - Niebla - Los Molinos - Curiñanco",
       "restriction": "",
-      "summary": "Aluvion",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-17T10:00:00.000Z",
+      "summary": "Deslizamiento de Talud",
+      "status": "open",
+      "reportedStatus": "Operativo",
+      "evidenceAt": "2026-08-24T08:59:26.000Z",
       "updatedAt": "2026-09-28T12:50:37.000Z",
       "coordinates": [
-        -33.2104265121349,
-        -70.91709312199998
+        -39.817359784071826,
+        -73.39932787299995
       ]
     },
     {
@@ -1974,22 +2006,6 @@
       ]
     },
     {
-      "id": "57993",
-      "region": "Metropolitana",
-      "road": "G-251",
-      "name": "Farellones - Valle Nevado",
-      "restriction": "",
-      "summary": "CIERRE DE RUTA POR NIEVE",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-17T08:15:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -33.36300384513292,
-        -70.26552628899998
-      ]
-    },
-    {
       "id": "57998",
       "region": "Metropolitana",
       "road": "G-25",
@@ -2019,6 +2035,22 @@
       "coordinates": [
         -36.82615671309445,
         -71.77163202599996
+      ]
+    },
+    {
+      "id": "58005",
+      "region": "La Araucanía",
+      "road": "S-806",
+      "name": "LOS PINOS - SANTA ROSA - PAILACURA",
+      "restriction": "Velocidad Restringida",
+      "summary": "Erosión en bermas",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-07-31T13:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -38.67710055807925,
+        -72.77716087299996
       ]
     },
     {
@@ -2102,22 +2134,6 @@
       ]
     },
     {
-      "id": "58076",
-      "region": "Maule",
-      "road": "S/R-K-454",
-      "name": "Cruce Calle Centinela (Puente Cardenal Raúl Silva Henriquez) - Piedra el Lobo",
-      "restriction": "Velocidad Restringida",
-      "summary": "Socavon en camino Piedra del Lobo km 2,5",
-      "status": "unknown",
-      "reportedStatus": "Parcialmente Operativo / No Operativo",
-      "evidenceAt": "2026-07-23T14:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -35.360897941109116,
-        -72.38389174599996
-      ]
-    },
-    {
       "id": "58086",
       "region": "Metropolitana",
       "road": "G-74-F",
@@ -2195,22 +2211,6 @@
       ]
     },
     {
-      "id": "58178",
-      "region": "Biobío",
-      "road": "P-72-S",
-      "name": "Cruce P-60-R (Peleco) - Tirúa - Tranapuente - Cruce S-40, Sector: Peleco - Límite Regional",
-      "restriction": "Velocidad Restringida",
-      "summary": "Camino P-72-S Derrumbe",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-08-01T18:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -38.25072679808241,
-        -73.49783841999994
-      ]
-    },
-    {
       "id": "58179",
       "region": "Ñuble",
       "road": "N-42",
@@ -2240,6 +2240,22 @@
       "coordinates": [
         -37.07562779709218,
         -72.61099971699997
+      ]
+    },
+    {
+      "id": "58214",
+      "region": "Maule",
+      "road": "M-870",
+      "name": "Cruce Ruta 126 S (Las Tunas) - Cruce M-80-N (Tregualemu)",
+      "restriction": "",
+      "summary": "Desplazamiento de material que produce socavón en la faja izquierda.",
+      "status": "open",
+      "reportedStatus": "Operativo",
+      "evidenceAt": "2026-09-02T12:15:02.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -35.97665398510268,
+        -72.72901709499996
       ]
     },
     {
@@ -2288,22 +2304,6 @@
       "coordinates": [
         -36.65230727509602,
         -72.34247052999996
-      ]
-    },
-    {
-      "id": "58304",
-      "region": "Biobío",
-      "road": "P-404",
-      "name": "Curanilahue (Puente Dos) - Cruce P-424 (Plegarias)",
-      "restriction": "Velocidad Restringida",
-      "summary": "Camino P-404 Derrumbe moderado",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-08-07T15:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -37.51385210208837,
-        -73.34571968399996
       ]
     },
     {
@@ -2387,22 +2387,6 @@
       ]
     },
     {
-      "id": "58361",
-      "region": "La Araucanía",
-      "road": "S-965",
-      "name": "CURARREHUE - REIGOLIL",
-      "restriction": "",
-      "summary": "deslizamiento de tierra a la calzada",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-09-23T17:30:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -39.26467340207525,
-        -71.43483044899995
-      ]
-    },
-    {
       "id": "58364",
       "region": "Metropolitana",
       "road": "G-750",
@@ -2467,22 +2451,6 @@
       ]
     },
     {
-      "id": "58413",
-      "region": "Ñuble",
-      "road": "S/R-N-317",
-      "name": "Cruce N-31 (Cachapoal) - Quihua Alto - Río Ñuble",
-      "restriction": "",
-      "summary": "inundación",
-      "status": "open",
-      "reportedStatus": "Operativo",
-      "evidenceAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -36.48180017409764,
-        -71.69257709599998
-      ]
-    },
-    {
       "id": "58416",
       "region": "Ñuble",
       "road": "N-476",
@@ -2531,22 +2499,6 @@
       ]
     },
     {
-      "id": "58470",
-      "region": "La Araucanía",
-      "road": "S/Rol",
-      "name": "Mallín del Treile - Rinconada - El Naranjo",
-      "restriction": "",
-      "summary": "GRIETA EN CAMINO CON DESLIZAMIENTO DE TERRAPLEN",
-      "status": "closed",
-      "reportedStatus": "No Operativo",
-      "evidenceAt": "2026-07-15T14:15:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -38.423202085081115,
-        -71.39839651899996
-      ]
-    },
-    {
       "id": "58473",
       "region": "Ñuble",
       "road": "N-520",
@@ -2560,6 +2512,22 @@
       "coordinates": [
         -36.5001610880975,
         -72.32206919499998
+      ]
+    },
+    {
+      "id": "58480",
+      "region": "La Araucanía",
+      "road": "S-234",
+      "name": "GALVARINO - CHOL CHOL POR AILLINCO",
+      "restriction": "Sólo Vehículos Livianos",
+      "summary": "Remoción en masa",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-08-04T14:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -38.41444967608116,
+        -72.79107811999995
       ]
     },
     {
@@ -2579,6 +2547,22 @@
       ]
     },
     {
+      "id": "58513",
+      "region": "Biobío",
+      "road": "S/R-Q-699",
+      "name": "Cruce Q-61 (Ralco) - Trapa Trapa - Chanchoco",
+      "restriction": "Velocidad Restringida",
+      "summary": "Camino S/R-Q-699 Remoción en masa",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / Operativo",
+      "evidenceAt": "2026-08-02T22:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -37.6970768890868,
+        -71.28773177199997
+      ]
+    },
+    {
       "id": "58516",
       "region": "Maule",
       "road": "Ruta 115 CH",
@@ -2592,6 +2576,22 @@
       "coordinates": [
         -35.910681614103304,
         -70.64024275999998
+      ]
+    },
+    {
+      "id": "58537",
+      "region": "Biobío",
+      "road": "Q-650",
+      "name": "Cruce Ruta 5 (Paso superior Licura) - Munilque - Cruce Q-80 (Negrete)",
+      "restriction": "Sólo Vehículos Doble Tracción",
+      "summary": "Camino Q-650 interrumpido por Crecida río Bureo",
+      "status": "unknown",
+      "reportedStatus": "Parcialmente Operativo / Operativo",
+      "evidenceAt": "2026-08-01T13:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -37.63680580808732,
+        -72.33407737999994
       ]
     },
     {
@@ -2627,22 +2627,6 @@
       ]
     },
     {
-      "id": "58584",
-      "region": "Biobío",
-      "road": "S/R-Q-181",
-      "name": "Cruce Q-105 (Estero Patahuecó) - Cruce Q-115 (Monte Las Diucas)",
-      "restriction": "Velocidad Restringida",
-      "summary": "S/R-Q-181  inundación del camino producto de aguas provenientes de predios colindantes",
-      "status": "partial",
-      "reportedStatus": "Parcialmente Operativo",
-      "evidenceAt": "2026-07-18T15:00:00.000Z",
-      "updatedAt": "2026-09-28T12:50:37.000Z",
-      "coordinates": [
-        -37.29912289309016,
-        -72.27023199499996
-      ]
-    },
-    {
       "id": "58587",
       "region": "Biobío",
       "road": "P-302-O",
@@ -2656,6 +2640,22 @@
       "coordinates": [
         -37.4726837410887,
         -73.32161689999998
+      ]
+    },
+    {
+      "id": "58594",
+      "region": "Biobío",
+      "road": "O-242",
+      "name": "Cruce O-14-N (El Mirador) - Cruce O-250 (Menque)",
+      "restriction": "Sólo Vehículos Doble Tracción",
+      "summary": "Camino O-242 Derrumbe y socavación mayor",
+      "status": "partial",
+      "reportedStatus": "Parcialmente Operativo",
+      "evidenceAt": "2026-08-01T17:00:00.000Z",
+      "updatedAt": "2026-09-28T12:50:37.000Z",
+      "coordinates": [
+        -36.55219011609699,
+        -72.86462765299996
       ]
     }
   ]
